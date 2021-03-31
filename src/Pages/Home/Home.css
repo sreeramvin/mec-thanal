@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(238, 238, 238);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: rgba(18, 77, 54, 0.959);
+  }
+  .navbar {
+    overflow: hidden;
+    background-color:#FFFFFF;
+    font-family: Josefin Sans;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: rgba(18, 77, 54, 0.959);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25%;
+  }
+
+  .navbar a:hover {
+    background-color: rgba(18, 77, 54, 0.959);
+    text-decoration: none;
+    color: floralwhite;
+  }
+
+  a.navbar-brand:hover, a.title:hover{
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: rgba(18, 77, 54, 0.959);
+  }
+
+  .logo-image{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    
+}
+
+ .title {
+   margin-left: -10%;
+ }
+ 
+ .title h5 {
+   margin: -3%;
+   text-align: left;
+ }
