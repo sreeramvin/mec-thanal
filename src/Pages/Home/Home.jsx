@@ -1,36 +1,25 @@
 
 import React from "react";
 import './Home.css';
-import logo from './thanal.png';
+import logo from '../../Assets/thanal.png';
 
 
 
-const Landing = (props) => {
+const Home = (props) => {
    
    
     return (
       <>
       <div>
-        {/* <div>
-            <ul>
-                <li><a href="#home">Thanal Mec</a></li>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#nabout">About</a></li>
-                <li><a href="#ff">Gallery</a></li>
-                <li><a href="#ff">Events</a></li>
-                <li><a href="#ff">Team</a></li>
-                <li><a href="#ff">Works</a></li>
-                <li><a href="#ff">Contact Us</a></li>
-            </ul>
-        /</div> */}
-        <div class="navbar">
-            <a class="navbar-brand" href="/">
-                <div class="logo-image">
-                    <img src={logo} alt="text" class="img-fluid"/> 
+     
+        <div className="navbar">
+            <a className="navbar-brand" href="/">
+                <div className="logo-image">
+                    <img src={logo} alt="text" className="img-fluid"/> 
                 </div>
                 
             </a>
-            <a  class="title" href="#news">
+            <a  className="title" href="#news">
                 <div>
                     <h5>THANAL</h5>
                     <h5>MEC</h5>
@@ -50,4 +39,4 @@ const Landing = (props) => {
     );
   };
   
-  export default Landing;
+  export default Home;

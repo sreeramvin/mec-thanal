@@ -23,12 +23,12 @@ ul {
   
  
   li a:hover {
-    background-color: rgba(18, 77, 54, 0.959);
+    background-color :#24424C;
   }
   .navbar {
     overflow: hidden;
     background-color:#FFFFFF;
-    font-family: Josefin Sans;
+    /* font-family: Josefin Sans; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -37,20 +37,20 @@ ul {
     overflow: hidden;
   }
   
-  /* Links inside the navbar */
+  
   .navbar a {
     float: left;
     display: block;
     font-size: 16px;
-    color: rgba(18, 77, 54, 0.959);
+    color: #24424C;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-radius: 25%;
+    border-radius: 20%;
   }
 
   .navbar a:hover {
-    background-color: rgba(18, 77, 54, 0.959);
+    background-color: #24424C;
     text-decoration: none;
     color: floralwhite;
   }
@@ -58,7 +58,7 @@ ul {
   a.navbar-brand:hover, a.title:hover{
     background-color: #FFFFFF;
     text-decoration: none;
-    color: rgba(18, 77, 54, 0.959);
+    color: #24424C;
   }
 
   .logo-image{

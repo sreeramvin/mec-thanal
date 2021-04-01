@@ -1,0 +1,38 @@
+.fill{
+    background-color: #24424C;
+    margin-top: 5%;
+    position: relative;
+    height: 100%;
+   
+}
+
+.box{
+    background-color: #24424C;
+    height: 10%;
+    width: 100%;
+    margin-top: 50px;
+    display: inline-block;
+    
+    padding: 8%;
+}
+
+.mm-image{
+    width: 50%;
+    height: 100%;
+    
+    /* overflow: hidden; */
+    /* margin-left: 10%; */
+    position: absolute;   
+    left: 0%;
+    top: 20%;
+    
+    
+}
+
+.mm-image img{
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+    
+
+}
