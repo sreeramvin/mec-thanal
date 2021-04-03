@@ -12,19 +12,19 @@ const About = (props) => {
       <>
       <div>
           <Home/>
-                   
-          {/* <div className="fill"> */}
-              
-          
-              <div className="mm-image">
-                <img src={mm} alt="text" /> 
-              </div>
-              <div className="box">
-                  
-              </div>
-          {/* </div> */}
-     
-        </div>
+          <div className="box"></div>
+          <div className="mm-image">
+            <img src={mm} alt="text" /> 
+          </div>
+          <div className="rectangle">
+            {/* <h1>UPDATES</h1>
+            <p>fdxfgxg</p> */}
+          </div> 
+          <div className="head">
+                <h1>THANAL</h1>
+                <h1>MEC</h1>
+          </div>
+      </div>
       </>
     );
   };

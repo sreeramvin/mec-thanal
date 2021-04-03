@@ -1,80 +1,70 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(238, 238, 238);
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(8, 8, 8);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
- 
-  li a:hover {
-    background-color :#24424C;
-  }
-  .navbar {
-    overflow: hidden;
-    background-color:#FFFFFF;
-    /* font-family: Josefin Sans; */
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-top: 10px;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  
-  .navbar a {
-    float: left;
-    display: block;
-    font-size: 16px;
-    color: #24424C;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-radius: 20%;
-  }
-
-  .navbar a:hover {
-    background-color: #24424C;
-    text-decoration: none;
-    color: floralwhite;
-  }
-
-  a.navbar-brand:hover, a.title:hover{
-    background-color: #FFFFFF;
-    text-decoration: none;
-    color: #24424C;
-  }
-
-  .logo-image{
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;
-    
+*{
+  background-color: #E5E5E5;
 }
 
- .title {
-   margin-left: -10%;
- }
+.body{
+  position: relative;
+  font-family: Josefin Sans;
+  color: #24424C;
+}
+
+.logo-image{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  /* width: 65px;
+  height: 65px; */
+  
+}
+
+.logo-image img{
+width: 75px;
+height: 70px;
+border-radius: 50%;
+}
+
+.title {
+  position: absolute;
+  top: 35px;
+  left: 130px 
+}
  
- .title h5 {
-   margin: -3%;
-   text-align: left;
- }
+.title h5 {
+  margin: 0%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  line-height : 20px;
+  letter-spacing: 0.09em;
+}
+
+.navbar {
+  position: fixed;
+  top: 22px;
+  left: 33%;
+  background-color: #E5E5E5;
+  width: 60%;
+  margin-top: 10px; 
+} 
+  
+.navbar a {
+  float: left; 
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #24424C;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 12%;
+}
+
+.navbar a:hover {
+  background-color: #24424C;
+  text-decoration: none;
+  color: floralwhite; 
+}
+
+
+
