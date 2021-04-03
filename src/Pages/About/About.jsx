@@ -1,7 +1,8 @@
 import React from "react";
 import Home from '../Home/Home'
-import mm from '../../Assets/thanal.png';
+import tlogo from '../../Assets/thanal.png';
 import './About.css';
+
 
 
 
@@ -14,12 +15,13 @@ const About = (props) => {
           <Home/>
           <div className="box"></div>
           <div className="mm-image">
-            <img src={mm} alt="text" /> 
+            <img src={tlogo} alt="text" /> 
           </div>
           <div className="rectangle">
-            {/* <h1>UPDATES</h1>
-            <p>fdxfgxg</p> */}
+            <h1>UPDATES</h1>
+            
           </div> 
+         
           <div className="head">
                 <h1>THANAL</h1>
                 <h1>MEC</h1>
