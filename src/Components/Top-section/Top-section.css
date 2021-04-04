@@ -1,0 +1,62 @@
+.TopSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-img{
+    max-width: 80%;
+    height: auto;
+}
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    font-weight: bold;
+    font-family: Josefin Sans;
+}
+.navBar{
+    width: 70%;
+    
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding-left: 0;
+    
+}
+
+.list-wrapper{
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+.list-item{
+    font-family: Josefin Sans;
+    color: #24424C;
+    margin:0;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 850px){
+    .list-wrapper{
+        margin: 0;
+    }
+    .list{
+        justify-content: space-evenly;
+    }
+}
