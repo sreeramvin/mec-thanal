@@ -6,3 +6,55 @@
     align-items: center;
     text-align: center;
 }
+
+.about-heading{
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 20px;
+    color: #24424C;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content-text{
+    width: 45%;
+}
+.about-content-text p{
+    text-align: left;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.about-content-img{
+    max-width: 35%;
+}
+
+.about-content-img img{
+    max-width: 80%;
+}
+
+@media screen and (max-width:450px){
+    .about-content-img{
+        display: none;
+    } 
+    .about-content-text{
+        width: 70%;
+    }
+
+    .about-content-text p{
+        text-align: center;
+    }
+}
+
+
+
+

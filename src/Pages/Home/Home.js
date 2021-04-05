@@ -12,8 +12,8 @@ export default function Home(){
     return (
       <div>
         <Header/>
-        {/* <About/>
-        <Gallery/>
+        <About/>
+        {/*<Gallery/>
         <OneDoneR/>
         <Fpc/>
         <Tc/>
