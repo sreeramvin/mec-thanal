@@ -7,7 +7,6 @@
     align-items: center;
 }
 .logo{
-    width: 20%;
     margin-left: 2rem;
     display: flex;
     flex-direction: row;
@@ -24,10 +23,6 @@
     margin-left: 2px;
     font-weight: bold;
     font-family: Josefin Sans;
-}
-.navBar{
-    width: 70%;
-    
 }
 .list{
     list-style-type: none;
@@ -50,6 +45,7 @@
     color: #24424C;
     margin:0;
     background-color: #fff;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 850px){
@@ -58,5 +54,11 @@
     }
     .list{
         justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 625px){
+    .logo{
+        display: none;
     }
 }
