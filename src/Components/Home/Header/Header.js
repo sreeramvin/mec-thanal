@@ -1,5 +1,5 @@
 import './Header.css'
-import LogoLarge from '../../../Assets/logo-large.png'
+import LogoLarge from '../../../Assets/thanal.png'
 import frame from '../../../Assets/frame.png'
 export default function Header(){
     return(

@@ -20,6 +20,7 @@
 .header-logo-img {
     max-width: 75%;
     height: auto;
+    border-radius: 50%;
 }
 
 .header-logo-text{
@@ -47,5 +48,4 @@
     width: 20%;
     position: absolute;
     bottom: -40px;
-
 }
