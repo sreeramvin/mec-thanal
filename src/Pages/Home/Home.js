@@ -16,8 +16,8 @@ export default function Home(){
         <Gallery/>
         <OneDoneR/>
         <Fpc/>
-        <Tc/>
-        <Footer/> */}
+        <Tc/> */}
+        <Footer/>
       </div>
 
     );

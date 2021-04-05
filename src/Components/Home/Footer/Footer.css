@@ -1,0 +1,47 @@
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-start;
+    color: #fff;
+    font-family: Josefin Sans;
+    height: auto;
+    width: 100%;
+}
+.flogo{
+    /* margin-left: 5rem; */
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    width: 95%;
+    text-align: center;
+    
+}
+.fflogo{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    /* width: 35%; */
+    /* margin-right: 20px; */
+}
+
+.flogo-img{
+    max-width: 50%;
+    max-height: 50%;
+    height: auto;
+    
+}
+.flogo-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.14em;
+    text-align: left;
+    
+}
