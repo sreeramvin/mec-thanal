@@ -12,12 +12,12 @@ export default function Home(){
     return (
       <div>
         <Header/>
-        <About/>
+        {/* <About/>
         <Gallery/>
         <OneDoneR/>
         <Fpc/>
         <Tc/>
-        <Footer/>
+        <Footer/> */}
       </div>
 
     );

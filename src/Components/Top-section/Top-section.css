@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     align-items: center;
 }
 .logo{
@@ -26,7 +26,7 @@
     font-family: Josefin Sans;
 }
 .navBar{
-    width: 70%;
+    width: 60%;
     
 }
 .list{
@@ -50,6 +50,7 @@
     color: #24424C;
     margin:0;
     background-color: #fff;
+    
 }
 
 @media screen and (max-width: 850px){
