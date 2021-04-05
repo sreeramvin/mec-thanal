@@ -1,0 +1,60 @@
+.TS{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.TS-heading{
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 20px;
+    color: #24424C;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+}
+
+.TS-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.TS-content-text{
+    width: 45%;
+}
+.TS-content-text p{
+    text-align: left;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.TS-content-img{
+    max-width: 35%;
+}
+
+.TS-content-img img{
+    max-width: 80%;
+}
+
+@media screen and (max-width:450px){
+    .TS-content-img{
+        display: none;
+    } 
+    .TS-content-text{
+        width: 70%;
+    }
+
+    .TS-content-text p{
+        text-align: center;
+    }
+}
+
+
+
+
