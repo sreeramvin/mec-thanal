@@ -16,14 +16,13 @@
     color: #fff;
     display: flex;
     flex-flow: row wrap;
-    flex-grow: 2;
+    flex: 1 1 auto;
     justify-content: space-between;
     width: 100%;
     height: max-content;
     padding: 10px;
-
-
 }
+
 .flogo{
     margin-left: 2rem;
     display: flex;

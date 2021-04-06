@@ -16,7 +16,7 @@ export default function TopSelection() {
         rel="stylesheet"
       ></link>
       <div className="logo">
-        <img src={Logo} className="logo-img" />
+        <img src={Logo} className="logo-img" alt="pic" />
         <p className="logo-text">
           <span>THANAL</span>
           <span>MEC</span>

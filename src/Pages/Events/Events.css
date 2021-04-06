@@ -1,0 +1,42 @@
+.events-header{
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    align-content: center;
+    font-family: Josefin Sans;
+   
+}
+.events{
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    justify-content: center;
+}
+.event{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    width: 30%;
+    background-color: #24424C;
+    margin: 30px;
+    color: #fff;
+    border-radius: 60px;
+    height: 400px;
+    text-align: center;
+}
+
+.event img{
+    width: 150px;
+    height: 150px;
+    align-content: center;
+}
+
+.event-donate{
+    background-color: #fff;
+    color: #24424C;
+    /* padding: 5px;
+    margin: 5px; */
+    border-radius: 15%;
+
+}
