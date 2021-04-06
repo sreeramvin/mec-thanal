@@ -51,15 +51,22 @@
 
 @media screen and (max-width: 850px){
     .list-wrapper{
-        margin: 0;
-    }
-    .list{
-        justify-content: space-evenly;
+        margin: 1em;
     }
 }
 
 @media screen and (max-width: 625px){
     .logo{
         display: none;
+    }
+    .TopSection{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .list-wrapper{
+        margin: 0;
     }
 }

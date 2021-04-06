@@ -11,7 +11,6 @@ export default function Header(){
                 </div>
             </div>
             <div className="header-updates">
-                <img src={frame} className="frame" alt="pic"/>
             </div>
         </div>
     )

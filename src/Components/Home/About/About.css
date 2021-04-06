@@ -41,11 +41,23 @@
 .about-content-img img{
     max-width: 80%;
 }
-
+@media screen and (max-width:600px){
+    .about-heading{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:400px){
+    .about-heading{
+        font-size: 28px;
+    }
+}
 @media screen and (max-width:450px){
+    .about-content{
+        flex-direction: column-reverse;
+    }
     .about-content-img{
-        display: none;
-    } 
+        max-width: 60%;
+    }
     .about-content-text{
         width: 70%;
     }
