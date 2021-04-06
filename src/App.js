@@ -5,6 +5,7 @@ import Gallery from './Pages/Gallery/Gallery'
 import Team from './Pages/Team/Team'
 import ContactUs from './Pages/Contact/Contact'
 import TopSection from './Components/Top-section/Top-section'
+import Footer from './Components/Home/Footer/Footer'
 import {
   BrowserRouter as Router,
   Switch,
@@ -36,6 +37,7 @@ function App() {
           </Route>
 
         </Switch>
+        <Footer/>
       </div>
     </Router>
   )

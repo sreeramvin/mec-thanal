@@ -19,7 +19,7 @@ export default function Footer(){
                
                 <div className="footer-links">
                 <h3>Contact Us</h3>
-                    <h3>abcd@gmail.com</h3>
+                    <h4>abcd@gmail.com</h4>
                     <img src={social} alt="random" className="footer-social"/> 
                 </div>
                 <div className="footer-links" >

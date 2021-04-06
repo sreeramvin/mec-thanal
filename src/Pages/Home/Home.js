@@ -5,7 +5,7 @@ import Gallery from '../../Components/Home/Gallery/Gallery'
 import OneDoneR from '../../Components/Home/ODOR/ODOR'
 import FPC from '../../Components/Home/FPC/FPC'
 import TS from '../../Components/Home/TS/TS'
-import Footer from '../../Components/Home/Footer/Footer'
+
 
 
 export default function Home(){
@@ -21,7 +21,7 @@ export default function Home(){
         
         
         <TS/>
-        <Footer/>
+       
       </div>
 
     );
