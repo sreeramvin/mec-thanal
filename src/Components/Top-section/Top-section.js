@@ -125,7 +125,7 @@ export default function TopSelection() {
             </Link>
           </li>
           <li>
-            <Link to="/Contact">
+            {/* {<Link to="/Contact">
               <div
                 className="list-wrapper"
                 style={{
@@ -142,7 +142,7 @@ export default function TopSelection() {
                   Contact Us
                 </p>
               </div>
-            </Link>
+            </Link>} */}
           </li>
         </ul>
       </nav>

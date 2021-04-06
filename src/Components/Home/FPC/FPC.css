@@ -1,6 +1,6 @@
 .FPC{
     width: 100%;
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,11 +41,25 @@
 .FPC-content-img img{
     max-width: 80%;
 }
+@media screen and (max-width:600px){
+    .FPC-heading{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .FPC-heading{
+        font-size: 28px;
+    }
+}
 
 @media screen and (max-width:450px){
+    .FPC-content{
+        flex-direction: column-reverse;
+    }
     .FPC-content-img{
-        display: none;
-    } 
+        max-width: 60%;
+    }
     .FPC-content-text{
         width: 70%;
     }
