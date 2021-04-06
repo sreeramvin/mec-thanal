@@ -8,7 +8,7 @@ import tbox from '../../Assets/ODORImg.png';
 export default function Events(){
     return(
         <div className="events-header">
-            <h1>Events</h1>
+            <h1 className="heading">Events</h1>
             <div className="events">
                 <div className="event">
                     <h1>One Day</h1>

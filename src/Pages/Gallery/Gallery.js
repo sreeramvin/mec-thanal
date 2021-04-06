@@ -1,5 +1,5 @@
 import './Gallery.css';
-import img from '../../Assets/images.jpeg';
+import imgg from '../../Assets/images.jpeg';
 export default function Gallery(){
     return(
         <div>
@@ -7,22 +7,22 @@ export default function Gallery(){
             <div className="gallery">
             <div className="flex">
                 <div className="box one ">
-                    <img src={ img } alt="Gallery Image" className="img" />
+                    <img src={ imgg } alt="Gallery " className="images" />
                 </div>
                 <div className="box two ">
-                    <img src={ img } alt="Gallery Image" className="img" />
+                    <img src={ imgg } alt="Gallery " className="images" />
                 </div>
                 <div className="box three ">
-                    <img src={ img } alt="Gallery Image" className="img" />
+                    <img src={ imgg } alt="Gallery" className="images" />
                 </div>
                 <div className="box one ">
-                    <img src={ img } alt="Gallery Image" className="img" />
+                    <img src={ imgg } alt="Gallery " className="images" />
                 </div>
                 <div className="box two ">
-                    <img src={ img } alt="Gallery Image" className="img" />
+                    <img src={ imgg } alt="Gallery " className="images" />
                 </div>
                 <div className="box three ">
-                    <img src={ img } alt="Gallery Image" className="img" />
+                    <img src={ imgg } alt="Gallery" className="images" />
                 </div>
             </div>
             </div>

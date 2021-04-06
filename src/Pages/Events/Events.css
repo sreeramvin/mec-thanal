@@ -1,15 +1,12 @@
 .events-header{
-    display: flex;
-    flex-flow: column wrap;
-    /* justify-content: center; */
-    align-content: center;
     font-family: Josefin Sans;
+    text-align: center;
    
 }
 .events{
     display: flex;
     flex-flow: row wrap;
-    width: 70%;
+    /* width: 100%; */
     justify-content: center;
 }
 .event{
@@ -17,7 +14,8 @@
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
-    width: 30%;
+    flex: 1 1 auto;
+    /* width: 30%; */
     background-color: #24424C;
     margin: 30px;
     color: #fff;
@@ -29,7 +27,7 @@
 .event img{
     width: 150px;
     height: 150px;
-    align-content: center;
+    text-align: center;
 }
 
 .event-donate{
