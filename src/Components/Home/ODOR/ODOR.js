@@ -8,7 +8,7 @@ export default function OneDoneR(){
         </div>
         <div className="ODOR-content">
             <div className="ODOR-content-img">
-            <img src={ODORImg}/>
+            <img src={ODORImg} alt="pic"/>
           </div>
           <div className="ODOR-content-text">
             <p>

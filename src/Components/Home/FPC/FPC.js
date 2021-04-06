@@ -13,7 +13,7 @@ export default function FPC(){
             </p>
           </div>
           <div className="FPC-content-img">
-            <img src={FPCImg}/>
+            <img src={FPCImg} alt="pic"/>
           </div>
         </div>
       </div>

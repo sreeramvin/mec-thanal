@@ -10,7 +10,7 @@ export default function Footer(){
             <div className="f-contents">
                
                 <div className="flogo">
-                    <img src={togo} className="flogo-img" />
+                    <img src={togo} className="flogo-img" alt="pic" />
                     <p className="flogo-text">
                     <span>THANAL</span>
                     <span>MEC</span>

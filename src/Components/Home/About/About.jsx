@@ -13,7 +13,7 @@ export default function About(){
             </p>
           </div>
           <div className="about-content-img">
-            <img src={aboutImg}/>
+            <img src={aboutImg} alt="pic"/>
           </div>
         </div>
       </div>

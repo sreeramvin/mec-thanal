@@ -13,7 +13,7 @@ export default function TS(){
             </p>
           </div>
           <div className="TS-content-img">
-            <img src={TSImg}/>
+            <img src={TSImg} alt="pic"/>
           </div>
         </div>
       </div>

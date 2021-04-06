@@ -6,26 +6,26 @@ export default function Team() {
         <div className="team">
         <h1 className="heading"> CORE TEAM 2020 </h1>  
         <div className="staff">
-        <img src = { staff } className = "photo" />
+        <img src = { staff } className = "photo" alt="pic" />
         <p className="staff-name">Sreenivas P</p>
         <p>STAFF IN CHARGE</p>
         </div>
         <div className="core-team">
         <div className="flex-container">
             <div className="flex-item">
-                <img src={ core1 } className="core-img"/>
+                <img src={ core1 } className="core-img" alt="pic"/>
                 <p className="members">
                     Name <br /> Designation 
                 </p>
             </div>
             <div className="flex-item">
-                <img src={ core1 } className="core-img"/>
+                <img src={ core1 } className="core-img" alt="pic"/>
                 <p className="members">
                     Name <br /> Designation 
                 </p>
             </div>
             <div className="flex-item">
-                <img src={ core1 } className="core-img"/>
+                <img src={ core1 } className="core-img" alt="pic"/>
                 <p className="members">
                     Name <br /> Designation 
                 </p>
@@ -33,19 +33,19 @@ export default function Team() {
         </div>
         <div className="flex-container">
             <div className="flex-item">
-                <img src={ core1 } className="core-img"/>
+                <img src={ core1 } className="core-img" alt="pic"/>
                 <p className="members">
                     Name <br /> Designation 
                 </p>
             </div>
             <div className="flex-item">
-                <img src={ core1 } className="core-img"/>
+                <img src={ core1 } className="core-img" alt="pic"/>
                 <p className="members">
                     Name <br /> Designation 
                 </p>
             </div>
             <div className="flex-item">
-                <img src={ core1 } className="core-img"/>
+                <img src={ core1 } className="core-img" alt="pic"/>
                 <p className="members">
                     Name <br /> Designation 
                 </p>
