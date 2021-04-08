@@ -1,6 +1,6 @@
 import './Header.css'
 import LogoLarge from '../../../Assets/thanal.png'
-import frame from '../../../Assets/frame.png'
+
 export default function Header(){
     return( 
         <div className="Header">

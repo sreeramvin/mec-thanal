@@ -1,0 +1,45 @@
+.events-header{
+    font-family: Josefin Sans;
+    text-align: center;
+   
+}
+.events{
+    display: flex;
+    flex-flow: row wrap;
+    /* width: 100%; */
+    justify-content: center;
+}
+.event{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    flex: 1 1 auto;
+    /* width: 30%; */
+    background-color: #24424C;
+    margin: 30px;
+    padding-top: 15px;
+    color: #fff;
+    border-radius: 60px;
+    height: 400px;
+    text-align: center;
+}
+
+.event img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.event-donate{
+    background-color: #fff;
+    color: #24424C;
+    padding: 7px;
+  
+    border: 13px solid #24424C;
+box-sizing: border-box;
+border-radius: 80px;
+  
+
+}
