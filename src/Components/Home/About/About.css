@@ -41,6 +41,11 @@
 .about-content-img img{
     max-width: 80%;
 }
+@media screen and (max-width:650px){
+    .About{
+        margin-top: 80px;
+    }
+}
 @media screen and (max-width:600px){
     .about-heading{
         font-size: 36px;
