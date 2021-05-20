@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './Pages/Home/Home.js'
+import About from './Pages/About/About'
 import Events from './Pages/Events/Events'
 import Gallery from './Pages/Gallery/Gallery'
 import Team from './Pages/Team/Team'
@@ -22,6 +23,9 @@ function App() {
           <Redirect exact from="/" to="/Home" />
           <Route path="/Home">
             <Home />
+          </Route>
+          <Route path="/About">
+            <About />
           </Route>
           <Route path="/Events">
             <Events />
