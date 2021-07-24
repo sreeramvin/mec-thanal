@@ -1,0 +1,31 @@
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.overlay-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    background-color: #fff;
+    left: 30%;
+    top: 25%;
+    border-radius: 20px;
+    padding-top: 2%;
+    font-size: 32px;
+}
+
+.overlay-input{
+    height: 40px;
+    padding: 3px 0 3px 6px;
+    border-style: solid;
+    border-bottom: solid 4px #24424C;
+    margin: 4% 0 2% 0;
+    font-size: 32px;
+}
