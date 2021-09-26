@@ -36,7 +36,7 @@ export default function header(){
                     </div>
                 </div>
                 <img src = {g40} style = {{height: 'auto', width: '20%', marginLeft: '8%',  zIndex: 3, float: 'left'}} />
-                <img src = {g41} style = {{height: 'auto', width: '50%', marginLeft: '4%', marginTop: '-15%',  zIndex: 3, float: 'left'}} />
+                <img src = {g41} style = {{height: 'auto', width: '50%', marginLeft: '4%', marginTop: '-18%',  zIndex: 3, float: 'left'}} />
 
             </div>
             
