@@ -56,7 +56,7 @@ export default function Events() {
             description: "Thanal Donation",
             image: { heart },
             order_id: order_id,
-            handler: async function (response) {
+            handler: async function (response ) {
                 const data = {
                     orderCreationId: order_id,
                     razorpayPaymentId: response.razorpay_payment_id,

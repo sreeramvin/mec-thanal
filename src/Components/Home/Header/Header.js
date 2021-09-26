@@ -7,14 +7,10 @@ export default function Header(){
             <div class="header-container">
                 <div className="header-logo">
                     <img src={LogoLarge} className="header-logo-img" alt="pic"/>
-                    <div className="header-logo-text">
-                        <p className="header-logo-text-p">THANAL MEC</p>
-                    </div>
-                </div>
-                <div className="header-updates">
+                    <p className="header-logo-text-p">THANAL MEC</p>
+                    <p className="header-logo-college-p">Government Model Engineering College, Kochi</p>
                 </div>
             </div>
-            <div className="header-updates-2"></div>
         </div>
     )
 }

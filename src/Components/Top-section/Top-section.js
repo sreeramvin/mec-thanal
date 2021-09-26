@@ -2,19 +2,22 @@ import { Link, useLocation } from "react-router-dom";
 import "./Top-section.css";
 import { useEffect, useState } from "react";
 import Logo from "../../Assets/thanal_logo.png";
+import {IoClose, IoMenu} from 'react-icons/io5'
 
-export default function TopSelection() {
+export default function TopSection({headerShown}) {
   const location = useLocation();
   const [pathname, setPathname] = useState(location.pathname);
+  const [expanded, setExpanded] = useState(false)
   useEffect(() => {
     setPathname(location.pathname);
   }, [location.pathname]);
   return (
-    <div className="TopSection">
+    <div className={`${headerShown ? "TopSection" : "TopSectionHidden"} ${expanded ? "TopSectionExpanded" : null}`}>
       <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
         rel="stylesheet"
       ></link>
+      <div style = {{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: '100%'}}>
       <div className="logo">
         <img src={Logo} className="logo-img" alt="pic" />
         <p className="logo-text">
@@ -146,6 +149,20 @@ export default function TopSelection() {
           </li>
         </ul>
       </nav>
+      {!expanded ? 
+      <IoMenu className = "menu-icon" onClick = {() => setExpanded((prev) => {return !prev})}/>
+       : <IoClose className = "menu-icon" onClick = {() => setExpanded((prev) => {return !prev})} />
+      } 
+      </div>
+      <div className = {`${expanded ? 'exp-list' : 'exp-list-hidden'}`}>
+            <ul className = "exp-ul">
+              <li className = "exp-li">Home</li>
+              <li className = "exp-li">About</li>
+              <li className = "exp-li">Gallery</li>
+              <li className = "exp-li">Events</li>
+              <li className = "exp-li">Team</li>
+            </ul>
+      </div>
     </div>
   );
 }

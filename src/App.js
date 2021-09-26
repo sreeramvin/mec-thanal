@@ -18,7 +18,6 @@ function App() {
   return (
     <Router>
       <div>
-        <TopSection/>
         <Switch>
           <Redirect exact from="/" to="/Home" />
           <Route path="/Home">
