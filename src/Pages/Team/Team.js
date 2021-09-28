@@ -15,6 +15,79 @@ export default function Team() {
             <div className="flex-item">
                 <img src={ core1 } className="core-img" alt="pic"/>
                 <p className="members">
+                    Name <br /> Designation
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+        </div>
+        <div className="flex-container">
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+            
+          </div>
+          <div className="flex-container">
+          <div className="flex-item">
+              <img src={ core1 } className="core-img" alt="pic"/>
+              <p className="members">
+                  Name <br /> Designation 
+              </p>
+          </div>
+          <div className="flex-item">
+              <img src={ core1 } className="core-img" alt="pic"/>
+              <p className="members">
+                  Name <br /> Designation 
+              </p>
+          </div>
+          <div className="flex-item">
+              <img src={ core1 } className="core-img" alt="pic"/>
+              <p className="members">
+                  Name <br /> Designation 
+              </p>
+          </div>
+          <div className="flex-item">
+              <img src={ core1 } className="core-img" alt="pic"/>
+              <p className="members">
+                  Name <br /> Designation 
+              </p>
+          </div>
+      </div>
+      <div className="flex-container">
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
                     Name <br /> Designation 
                 </p>
             </div>
@@ -50,7 +123,53 @@ export default function Team() {
                     Name <br /> Designation 
                 </p>
             </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
             </div>
+        </div>
+        <div className="flex-container">
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+        </div>
+        <div className="flex-container">
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+            <div className="flex-item">
+                <img src={ core1 } className="core-img" alt="pic"/>
+                <p className="members">
+                    Name <br /> Designation 
+                </p>
+            </div>
+        </div>
         </div>
         </div>
     )
