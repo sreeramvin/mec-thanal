@@ -1,0 +1,13 @@
+.header{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 8%;
+    padding-bottom: 6%;
+    padding-left: 12%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.first{
+    z-index: 100;
+}

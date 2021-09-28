@@ -1,5 +1,6 @@
 .About{
     width: 100%;
+    min-height: 100vh;
     margin-top: 200px;
     display: flex;
     flex-direction: column;
@@ -43,7 +44,7 @@
 }
 @media screen and (max-width:625px){
     .About{
-        margin-top: 80px;
+        margin-top: 120px;
     }
 }
 @media screen and (max-width:600px){

@@ -3,6 +3,7 @@ import './Footer.css';
 import togo from "../../../Assets/thanal.png";
 import {FaInstagram, FaFacebookF, FaLinkedin} from 'react-icons/fa';
 
+
 export default function Footer(){
     return(
         <div className="footer">
