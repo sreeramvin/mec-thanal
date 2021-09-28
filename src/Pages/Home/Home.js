@@ -13,9 +13,10 @@ export default function Home(){
       <div>
         <Header/>
         <About/>
+        <Gallery/>
         <OneDoneR/>
         <FPC/> 
-        <Gallery/>
+        
         
         
         

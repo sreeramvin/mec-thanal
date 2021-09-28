@@ -8,11 +8,11 @@ export default function Header(){
                 <div className="header-logo">
                     <img src={LogoLarge} className="header-logo-img" alt="pic"/>
                     <div className="header-logo-text">
-                        <p className="header-logo-text-p">THANAL MEC</p>
+                        <p className="header-logo-text-p">THANAL <br></br>MEC</p>
                     </div>
                 </div>
-                <div className="header-updates">
-                </div>
+                {/* <div className="header-updates">
+                </div> */}
             </div>
             <div className="header-updates-2"></div>
         </div>

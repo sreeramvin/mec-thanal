@@ -27,12 +27,13 @@ function App() {
           <Route path="/About">
             <About />
           </Route>
-          <Route path="/Events">
-            <Events />
-          </Route>
           <Route path="/Gallery">
             <Gallery />
           </Route>
+          <Route path="/Events">
+            <Events />
+          </Route>
+          
           <Route path="/Team">
             <Team />
           </Route>
