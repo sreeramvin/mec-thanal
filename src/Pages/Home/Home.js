@@ -30,7 +30,7 @@ export default function Home(){
         <Header2/>
         <Header/>
         <About/>
-        <Gallery/>
+        
         <OneDoneR/>
         <FPC/> 
         
@@ -39,6 +39,7 @@ export default function Home(){
         
         
         <TS/>
+        <Gallery/>
        
       </div>
 
