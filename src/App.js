@@ -16,8 +16,11 @@ import {
 
 function App() {
   return (
+    
     <Router>
+      <TopSection  headerShown = {true} />
       <div>
+      
         <Switch>
           <Redirect exact from="/" to="/Home" />
           <Route path="/Home">

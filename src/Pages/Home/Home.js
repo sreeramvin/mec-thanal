@@ -5,13 +5,13 @@ import Gallery from '../../Components/Home/Gallery/Gallery'
 import OneDoneR from '../../Components/Home/ODOR/ODOR'
 import FPC from '../../Components/Home/FPC/FPC'
 import TS from '../../Components/Home/TS/TS'
-import TopSection from '../../Components/Top-section/Top-section';
+// import TopSection from '../../Components/Top-section/Top-section';
 import Header2 from '../../Components/Home/Header2/header2'
 import {useEffect, useRef, useState} from 'react'
 
 
 export default function Home(){
-    const aboutRef = useRef(null);
+    // const aboutRef = useRef(null);
     const [headerShown, setHeaderShown] = useState(false)
     useEffect(() => {
       window.addEventListener('scroll', scrollListener)
@@ -26,7 +26,7 @@ export default function Home(){
     }
     return (
       <div>
-        <TopSection headerShown = {true}/>
+        {/* <TopSection headerShown = {true}/> */}
         <Header2/>
         <Header/>
         <About/>
