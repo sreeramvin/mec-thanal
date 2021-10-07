@@ -26,7 +26,7 @@ export default function Home(){
     }
     return (
       <div>
-        <TopSection headerShown = {true}/>
+        
         <Header2/>
         <Header/>
         <About/>
