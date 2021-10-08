@@ -7,6 +7,7 @@ import Team from './Pages/Team/Team'
 import ContactUs from './Pages/Contact/Contact'
 import TopSection from './Components/Top-section/Top-section'
 import Footer from './Components/Home/Footer/Footer'
+import ScrollToTop from './utils/ScrollToTop'
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,7 +19,7 @@ function App() {
   return (
     
     <Router>
-      <TopSection  headerShown = {true} />
+       <ScrollToTop/>
       <div>
       
         <Switch>

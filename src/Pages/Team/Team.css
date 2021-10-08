@@ -1,9 +1,8 @@
-@media only screen and (min-width: 0px) {
+.team-mobile{
+    display: block;
+}
 .team-web{
     display: show;
-}
-.team-mobile{
-    display: none;
 }
 .team{
     height: min-content;
@@ -119,14 +118,13 @@ p{
     margin-bottom: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
-}
 
 @media only screen and (max-width: 769px) {
     .team-mobile{
         display: show;
     }
     .team-web{
-        display: none;
+        display: block;
     }
     .staff-name{
         font-size: 30px;

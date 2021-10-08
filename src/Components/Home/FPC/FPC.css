@@ -1,6 +1,5 @@
 .FPC{
     width: 100%;
-    min-height: 100vh;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -11,7 +10,9 @@
 .FPC-heading{
     text-align: center;
     font-size: 48px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
     color: #24424C;
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
@@ -25,14 +26,15 @@
 }
 
 .FPC-content-text{
-    width: 45%;
+    width: 85%;
 }
 .FPC-content-text p{
     text-align: left;
     font-family: Josefin Sans;
     font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
 }
 
 .FPC-content-img{
@@ -45,6 +47,9 @@
 @media screen and (max-width:600px){
     .FPC-heading{
         font-size: 36px;
+    }
+    .FPC-content-text p{
+        font-size: 22px;
     }
 }
 

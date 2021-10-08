@@ -1,6 +1,5 @@
 .TS{
     width: 100%;
-    min-height: 100vh;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -11,7 +10,7 @@
 .TS-heading{
     text-align: center;
     font-size: 48px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     color: #24424C;
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
@@ -25,14 +24,15 @@
 }
 
 .TS-content-text{
-    width: 45%;
+    width: 85%;
 }
 .TS-content-text p{
     text-align: left;
     font-family: Josefin Sans;
     font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
 }
 
 .TS-content-img{
@@ -45,6 +45,9 @@
 @media screen and (max-width:600px){
     .TS-heading{
         font-size: 36px;
+    }
+    .TS-content-text p{
+        font-size: 22px;
     }
 }
 @media screen and (max-width:400px){

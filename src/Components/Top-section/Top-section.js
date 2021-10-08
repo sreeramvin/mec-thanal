@@ -1,134 +1,137 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useHistory } from "react-router-dom";
 import "./Top-section.css";
 import { useEffect, useState } from "react";
 import Logo from "../../Assets/thanal_logo.png";
-import {IoClose, IoMenu} from 'react-icons/io5'
+import { IoClose, IoMenu } from 'react-icons/io5'
 
-export default function TopSection({headerShown}) {
+export default function TopSection({ scrollToSec }) {
   const location = useLocation();
-  const [pathname, setPathname] = useState(location.pathname);
+  const history = useHistory();
+  const [pathname, setPathname] = useState('');
   const [expanded, setExpanded] = useState(false)
   useEffect(() => {
-    setPathname(location.pathname);
-  }, [location.pathname]);
+    const scrollSec = window.location.href.split('#')[1];
+    const byslash = window.location.href.split('/')
+    if (scrollSec !== undefined) {
+      setPathname(scrollSec)
+      scrollToSec(scrollSec)
+    }
+    else {
+      setPathname(byslash[byslash.length - 1])
+    }
+    console.log(pathname)
+  }, [window.location.href]);
+
+  useEffect(() => {
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-200px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
+  }, [])
+
+  const navClick = (e, t) => {
+    if (t === "mob")
+      setExpanded(false)
+    window.location.href = "/home#" + e
+  }
   return (
-    <div className={`${headerShown ? "TopSection" : "TopSectionHidden"} ${expanded ? "TopSectionExpanded" : null}`}>
+    <div id="navbar" className={`${true ? "TopSection" : null} ${expanded ? "TopSectionExpanded" : null}`}>
       <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
         rel="stylesheet"
       ></link>
-      <div style = {{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: '100%'}}>
-      <div className="logo">
-        <img src={Logo} className="logo-img" alt="pic" />
-        <p className="logo-text">
-          <span>THANAL</span>
-          <span>MEC</span>
-        </p>
-      </div>
-      <nav className="navBar">
-        <ul className="list">
-          <li style={{ padding: 0, margin: 0 }}>
-            <Link to="/Home">
-              <div
-                className="list-wrapper"
-                style={{
-                  backgroundColor: pathname === "/Home" ? "#24424C" : "#fff",
-                }}
-              >
-                <p
-                  className="list-item"
-                  style={{
-                    backgroundColor: pathname === "/Home" ? "#24424C" : "#fff",
-                    color: !(pathname === "/Home") ? "#24424C" : "#fff",
-                  }}
+      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
+        <div className="logo">
+          <img src={Logo} className="logo-img" alt="pic" />
+          <p className="logo-text">
+            <span>THANAL</span>
+            <span>MEC</span>
+          </p>
+        </div>
+        <nav className="navBar">
+          <ul className="list">
+            <li style={{ padding: 0, margin: 0 }}>
+              <Link to="/home">
+                <div
+                  className={`${pathname === "home" ? "list-wrapper-selected" : null} list-wrapper`}
+
                 >
-                  Home
-                </p>
-              </div>
-            </Link>
-          </li>
-          <li>
-            <Link to="/About">
+                  <p
+                    className="list-item"
+                  >
+                    Home
+                  </p>
+                </div>
+              </Link>
+            </li>
+            <li>
+
               <div
-                className="list-wrapper"
-                style={{
-                  backgroundColor: pathname === "/About" ? "#24424C" : "#fff",
-                }}
+                className={`${pathname === "about" ? "list-wrapper-selected" : null} list-wrapper`}
+
               >
                 <p
                   className="list-item"
-                  style={{
-                    backgroundColor: pathname === "/About" ? "#24424C" : "#fff",
-                    color: !(pathname === "/About") ? "#24424C" : "#fff",
-                  }}
+                  onClick={() => navClick("about", "desk")}
                 >
                   About
                 </p>
               </div>
-            </Link>
-          </li>
-          <li>
-            <Link to="/Gallery">
+
+            </li>
+            <li>
+              {/* <Link to="/Events"> */}
               <div
-                className="list-wrapper"
-                style={{
-                  backgroundColor: pathname === "/Gallery" ? "#24424C" : "#fff",
-                }}
+                className={`${pathname === "events" ? "list-wrapper-selected" : null} list-wrapper`}
+
               >
                 <p
                   className="list-item"
-                  style={{
-                    backgroundColor: pathname === "/Gallery" ? "#24424C" : "#fff",
-                    color: !(pathname === "/Gallery") ? "#24424C" : "#fff",
-                  }}
-                >
-                  Gallery
-                </p>
-              </div>
-            </Link>
-          </li>
-          <li>
-            <Link to="/Events">
-              <div
-                className="list-wrapper"
-                style={{
-                  backgroundColor: pathname === "/Events" ? "#24424C" : "#fff",
-                }}
-              >
-                <p
-                  className="list-item"
-                  style={{
-                    backgroundColor: pathname === "/Events" ? "#24424C" : "#fff",
-                    color: !(pathname === "/Events") ? "#24424C" : "#fff",
-                  }}
+                  onClick={() => navClick("events", "desk")}
+
                 >
                   Events
                 </p>
               </div>
-            </Link>
-          </li>
-          <li>
-            <Link to="/Team">
+              {/* </Link> */}
+            </li>
+            <li>
               <div
-                className="list-wrapper"
-                style={{
-                  backgroundColor: pathname === "/Team" ? "#24424C" : "#fff",
-                }}
+                className={`${pathname === "gallery" ? "list-wrapper-selected" : null} list-wrapper`}
+
               >
                 <p
                   className="list-item"
-                  style={{
-                    backgroundColor: pathname === "/Team" ? "#24424C" : "#fff",
-                    color: !(pathname === "/Team") ? "#24424C" : "#fff",
-                  }}
+                  onClick={() => navClick("gallery", "desk")}
                 >
-                  Team
+                  Gallery
                 </p>
               </div>
-            </Link>
-          </li>
-          <li>
-            {/* {<Link to="/Contact">
+            </li>
+
+            <li>
+              <Link to="/Team">
+                <div
+                  className={`${pathname === "team" ? "list-wrapper-selected" : null} list-wrapper`}
+
+                >
+                  <p
+                    className="list-item"
+                  >
+                    Team
+                  </p>
+                </div>
+              </Link>
+            </li>
+            <li>
+              {/* {<Link to="/Contact">
               <div
                 className="list-wrapper"
                 style={{
@@ -146,22 +149,62 @@ export default function TopSection({headerShown}) {
                 </p>
               </div>
             </Link>} */}
+            </li>
+          </ul>
+        </nav>
+        {!expanded ?
+          <IoMenu className="menu-icon" onClick={() => setExpanded((prev) => { return !prev })} />
+          : <IoClose className="menu-icon" onClick={() => setExpanded((prev) => { return !prev })} />
+        }
+      </div>
+      <div className={`${expanded ? 'exp-list' : 'exp-list-hidden'}`}>
+        <ul className="exp-ul">
+          <li className="exp-li">
+            <Link to="/home">
+              <div
+                className={`${pathname === "home" ? "list-wrapper-selected-mob" : null}`}
+                onClick = {() => setExpanded(false)}
+              >
+                <p
+                  className="list-item-mob"
+                >
+                  Home
+                </p>
+              </div>
+            </Link>
+          </li>
+          <li className="exp-li">
+            <div className={`${pathname === "about" ? "list-wrapper-selected-mob" : null}`}>
+              <p className="list-item-mob" onClick={() => navClick("about", "mob")}>About</p>
+            </div>
+          </li>
+          <li className="exp-li">
+            <div className={`${pathname === "events" ? "list-wrapper-selected-mob" : null}`}>
+              <p className="list-item-mob" onClick={() => navClick("events", "mob")}>Events</p>
+            </div>
+          </li>
+          <li className="exp-li">
+            <div className={`${pathname === "gallery" ? "list-wrapper-selected-mob" : null}`}>
+              <p className="list-item-mob" onClick={() => navClick("gallery", "mob")}>Gallery</p>
+            </div>
+          </li>
+          
+          <li className="exp-li">
+            <Link to="/Team">
+              <div
+                className={`${pathname === "team" ? "list-wrapper-selected-mob" : null}`}
+                onClick = {() => setExpanded(false)}
+
+              >
+                <p
+                  className="list-item-mob"
+                >
+                  Team
+                </p>
+              </div>
+            </Link>
           </li>
         </ul>
-      </nav>
-      {!expanded ? 
-      <IoMenu className = "menu-icon" onClick = {() => setExpanded((prev) => {return !prev})}/>
-       : <IoClose className = "menu-icon" onClick = {() => setExpanded((prev) => {return !prev})} />
-      } 
-      </div>
-      <div className = {`${expanded ? 'exp-list' : 'exp-list-hidden'}`}>
-            <ul className = "exp-ul">
-              <li className = "exp-li">Home</li>
-              <li className = "exp-li">About</li>
-              <li className = "exp-li">Gallery</li>
-              <li className = "exp-li">Events</li>
-              <li className = "exp-li">Team</li>
-            </ul>
       </div>
     </div>
   );
