@@ -1,6 +1,5 @@
 .ODOR{
     width: 100%;
-    min-height: 100vh;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -13,6 +12,8 @@
     font-size: 48px;
     padding-top: 20px;
     padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
     color: #24424C;
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;

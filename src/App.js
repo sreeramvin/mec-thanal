@@ -19,7 +19,6 @@ function App() {
   return (
     
     <Router>
-      <TopSection  headerShown = {true} />
        <ScrollToTop/>
       <div>
       

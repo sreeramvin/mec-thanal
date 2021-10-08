@@ -1,11 +1,13 @@
 import './Team.css';
 import staff from '../../Assets/photo.png';
 import core1 from '../../Assets/profile1.png';
+import TopSection from '../../Components/Top-section/Top-section';
 export default function Team() {
     const isMobile = window.innerWidth <= 770;
     if(isMobile){
         return ( 
             <div className="team">
+            <TopSection />
             <h1 className="heading"> CORE TEAM 2020 </h1>  
             <div className="staff">
             <img src = { staff } className = "photo" alt="pic" />
@@ -236,6 +238,7 @@ export default function Team() {
     else{
         return ( 
             <div className="team">
+            <TopSection />
             <h1 className="heading"> CORE TEAM 2020 </h1>  
             <div className="staff">
             <img src = { staff } className = "photo" alt="pic" />

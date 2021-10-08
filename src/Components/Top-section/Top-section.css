@@ -6,13 +6,11 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
     align-items: center;
-    animation-name: enter;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-direction: normal;
+}
+
+#navbar{
+    transition: top 0.3s;
 }
 
 .TopSectionExpanded {
@@ -27,24 +25,6 @@
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     align-items: center;
-    animation-name: increase;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-direction: normal;
-}
-
-.TopSectionHidden {
-    position: fixed;
-    z-index:100;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-    align-items: center;
-    margin-top: -7rem;
 }
 
 .logo{
@@ -52,6 +32,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    line-height: 0.88;
 }
 
 .logo-img{
@@ -64,7 +45,7 @@
     flex-direction: column;
     margin-left: 10px;
     font-size: 18px;
-    margin-top: 5%;
+    margin-top: 10%;
     /* padding-top: 7px; */
     font-weight: bold;
     font-family: Josefin Sans;
@@ -86,7 +67,7 @@
 .exp-list{
     display: inline;
     position: absolute;
-    top: 20%;
+    top: 30%;
 }
 
 .exp-li{
@@ -114,10 +95,19 @@
 }
 
 .list-wrapper{
-    padding: 5px 10px 5px 10px;
+    padding: 2px 5px 2px 5px;
     background-color: #fff;
-    border-radius: 10px;
     margin-right: 2rem;
+}
+
+.list-wrapper-selected{
+    border: 3px solid #143941;
+    box-sizing: border-box;
+}
+
+.list-wrapper-selected-mob{
+    border-bottom: 3px solid #143941;
+    box-sizing: border-box;
 }
 
 .list-item{
@@ -126,6 +116,17 @@
     margin:0;
     background-color: #fff;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.list-item-mob{
+    font-family: Josefin Sans;
+    color: #24424C;
+    margin:0;
+    background-color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+
 }
 
 @media screen and (max-width: 850px){
@@ -164,14 +165,6 @@
     }
 }
 
-@keyframes enter {
-	0% {
-		margin-top: -7rem;
-	}
-	50% {
-		margin-top: 0;
-	}
-}
 
 @keyframes iconRot {
     100%{
