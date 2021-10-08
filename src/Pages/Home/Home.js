@@ -1,5 +1,5 @@
 import './Home.css';
-// import Header from '../../Components/Home/Header/Header'
+import Header from '../../Components/Home/Header/Header'
 import About from '../../Components/Home/About/About'
 import Gallery from '../../Components/Home/Gallery/Gallery'
 import OneDoneR from '../../Components/Home/ODOR/ODOR'
@@ -28,7 +28,7 @@ export default function Home(){
       <div>
         {/* <TopSection headerShown = {true}/> */}
         <Header2/>
-        {/* <Header/> */}
+        <Header/>
         <About/>
         
         <OneDoneR/>
