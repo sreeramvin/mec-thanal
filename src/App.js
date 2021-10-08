@@ -16,10 +16,11 @@ import {
 
 function App() {
   return (
+    
     <Router>
-    <TopSection headerShown = {true}/>
+      <TopSection  headerShown = {true} />
       <div>
-        
+      
         <Switch>
           <Redirect exact from="/" to="/Home" />
           <Route path="/Home">
@@ -28,12 +29,13 @@ function App() {
           <Route path="/About">
             <About />
           </Route>
-          <Route path="/Events">
-            <Events />
-          </Route>
           <Route path="/Gallery">
             <Gallery />
           </Route>
+          <Route path="/Events">
+            <Events />
+          </Route>
+          
           <Route path="/Team">
             <Team />
           </Route>

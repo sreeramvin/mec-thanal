@@ -1,8 +1,10 @@
 import './Gallery.css';
+
 import imgg from '../../Assets/images.jpeg';
 export default function Gallery(){
     return(
         <div>
+            
             <h1 className="heading">GALLERY</h1>
             <div className="gallery">
             <div className="flex">
