@@ -1,4 +1,4 @@
-import './Team3.css';
+import './Team.css';
 import staff from '../../Assets/photo.png';
 import core1 from '../../Assets/core members/Anjali Suresh.jpeg';import core2 from '../../Assets/core members/Sruthi J.jpg';import core3 from '../../Assets/core members/Abhishek.jpg';import core4 from '../../Assets/core members/Kaveri Menoki.jpg';
 import core5 from '../../Assets/core members/Esther Maria.jpeg';import core6 from '../../Assets/core members/Sachin.jpg';import core7 from '../../Assets/core members/Ashwin Girish.jpg';import core8 from '../../Assets/core members/Aswin Augustine.png';
