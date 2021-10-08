@@ -11,7 +11,8 @@
 .ODOR-heading{
     text-align: center;
     font-size: 48px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     color: #24424C;
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
@@ -25,14 +26,15 @@
 }
 
 .ODOR-content-text{
-    width: 45%;
+    width: 50%;
 }
 .ODOR-content-text p{
     text-align: left;
     font-family: Josefin Sans;
     font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
+    margin-left: 50px;
+    font-weight: 200;
+    font-size: 35px;
 }
 
 .ODOR-content-img{
@@ -46,6 +48,10 @@
     .ODOR-heading{
         font-size: 36px;
     }
+    .ODOR-content-text p{
+        margin-left: 0px;
+        font-size: 22px;
+    }
 }
 @media screen and (max-width:400px){
     .ODOR-heading{
@@ -54,7 +60,7 @@
 }
 @media screen and (max-width:450px){
     .ODOR-content{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .ODOR-content-img{
         max-width: 60%;
