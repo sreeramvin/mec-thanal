@@ -1,3 +1,7 @@
+.team-mobile{
+    display: none;
+}
+
 .team{
     height: min-content;
     margin-top: 0px;
@@ -46,6 +50,7 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #designation{
     padding-top: 0px;
@@ -62,6 +67,7 @@ p{
     align-items: center;
     /* width: 400px; */
     justify-content: center;
+    margin-bottom: 20px;
 }
 .member-pair{
     display: flex;
@@ -111,7 +117,13 @@ p{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-@media only screen and (max-width: 769px) {
+@media screen and (max-width: 600px) {
+    .team-web{
+        display: none;
+    }
+    .team-mobile{
+        display: block;
+    }
     .staff-name{
         font-size: 30px;
     }
@@ -147,6 +159,9 @@ p{
     }
 }
 @media only screen and (max-width: 426px) {
+    .team-web{
+        display: none;
+    }
     .staff-name{
         font-size: 25px;
     }
@@ -178,6 +193,9 @@ p{
     }
 }
 @media only screen and (max-width: 376px) {
+    .team-web{
+        display: none;
+    }
     .staff-name{
         font-size: 23px;
     }
@@ -212,6 +230,9 @@ p{
     
 }
 @media only screen and (max-width: 321px) {
+    .team-web{
+        display: none;
+    }
     .staff-name{
         font-size: 22px;
         margin-bottom: -10px;
