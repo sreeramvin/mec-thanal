@@ -15,6 +15,7 @@
 
 .footer-wave{
     width: 100%;
+    margin-top: 100px;
 }
 .f-contents{
     background-color: #24424C;
@@ -46,9 +47,11 @@
 .flogo-text{
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
+    margin-left: 8px;
+    margin-top: 16px;
+    font-family: 'Montserrat';
     /* margin-top: 20px; */
-    font-size: 23px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 0.14em;
     text-align: left;
@@ -62,13 +65,20 @@
     text-align: center;
     font-weight: 500;
     font-style: normal;
-
+    font-family: 'Montserrat';
 
 }
 
 .footer-links a{
     text-decoration: none;
     color: #fff;
+    font-family: 'Montserrat';
+}
+.other-link{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 20px;
 }
 
 .footer-h{

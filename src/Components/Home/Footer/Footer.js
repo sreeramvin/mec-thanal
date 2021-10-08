@@ -12,19 +12,19 @@ export default function Footer(){
                
                 <div className="flogo">
                     <img src={togo} className="flogo-img" alt="pic" />
-                    <p className="flogo-text">
-                    <span>THANAL</span>
-                    <span>MEC</span>
+                    <p>
+                    <span className="flogo-text">THANAL <br /> MEC</span>
+                    
                     </p>
                 </div>
                 <div className="footer-h"/>
                 <div className="footer-links">
                     <p>Contact Us</p>
-                    <p>abcd@gmail.com</p>
+                    <p>thanalmec.mec@gmail.com</p>
                     <div className="social-links">
-                        <FaInstagram className="social-links-item"/>
-                        <FaFacebookF className="social-links-item"/>
-                        <FaLinkedin className="social-links-item"/>
+                        <FaInstagram className="social-links-item"/><a href=""></a>
+                        <FaFacebookF className="social-links-item"/><a href=""></a>
+                        <FaLinkedin className="social-links-item"/><a href="">https://www.linkedin.com/company/thanalmec</a>
                     </div>
                 </div>
                 <div className="footer-h"/>
