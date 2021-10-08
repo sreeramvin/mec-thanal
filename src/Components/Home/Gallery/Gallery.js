@@ -74,7 +74,7 @@ export default function Gallery() {
             slideNumber={false}
             captionPosition="bottom"
             automatic={true}
-            dots={true}
+            dots={false}
             pauseIconColor="white"
             pauseIconSize="40px"
             slideBackgroundColor="darkgrey"

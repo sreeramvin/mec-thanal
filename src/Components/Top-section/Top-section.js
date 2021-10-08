@@ -1,11 +1,13 @@
-import { Link, useLocation, useHistory } from "react-router-dom";
+import { Link,useLocation,useHistory} from "react-router-dom";
 import "./Top-section.css";
 import { useEffect, useState } from "react";
 import Logo from "../../Assets/thanal_logo.png";
 import { IoClose, IoMenu } from 'react-icons/io5'
 
 export default function TopSection({ scrollToSec }) {
+  // eslint-disable-next-line
   const location = useLocation();
+  // eslint-disable-next-line
   const history = useHistory();
   const [pathname, setPathname] = useState('');
   const [expanded, setExpanded] = useState(false)
@@ -20,6 +22,7 @@ export default function TopSection({ scrollToSec }) {
       setPathname(byslash[byslash.length - 1])
     }
     console.log(pathname)
+    // eslint-disable-next-line
   }, [window.location.href]);
 
   useEffect(() => {

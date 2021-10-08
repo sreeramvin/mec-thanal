@@ -32,6 +32,7 @@ export default function Home(){
       setTimeout(() => {
         if(aboutRef.current && eventRef.current && galleryRef.current)
         {
+          // eslint-disable-next-line
           switch(e){
           case "about": 
             aboutRef.current.scrollIntoView();
@@ -42,8 +43,7 @@ export default function Home(){
           case "gallery":
             galleryRef.current.scrollIntoView();
             break;
-          case "default":
-            break;
+         
 
         }}
       }, 500)
