@@ -131,7 +131,7 @@ p{
         font-size: 13.5px;
     }
     .members{
-        font-size: 15px;
+        font-size: 14px;
         
     }
     .member-pair{
@@ -143,7 +143,7 @@ p{
         /*max-width: 160px;*/
     }
     .flex-item2{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 @media only screen and (max-width: 426px) {
@@ -174,7 +174,7 @@ p{
         padding-top: 10px;
     }
     .flex-item2{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media only screen and (max-width: 376px) {
@@ -207,7 +207,7 @@ p{
         max-width: 107px;
     }
     .flex-item2{
-        font-size: 11px;
+        font-size: 10px;
     }
     
 }
@@ -247,6 +247,6 @@ p{
         padding-top: 10px;
     }
     .flex-item2{
-        font-size: 10px;
+        font-size: 9px;
     }
 }
