@@ -1,9 +1,7 @@
 .team-mobile{
-    display: block;
+    display: none;
 }
-.team-web{
-    display: show;
-}
+
 .team{
     height: min-content;
     margin-top: 0px;
@@ -119,11 +117,11 @@ p{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-@media only screen and (max-width: 769px) {
-    .team-mobile{
-        display: show;
-    }
+@media screen and (max-width: 600px) {
     .team-web{
+        display: none;
+    }
+    .team-mobile{
         display: block;
     }
     .staff-name{

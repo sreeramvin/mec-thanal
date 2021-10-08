@@ -42,6 +42,9 @@ export default function Home(){
           case "gallery":
             galleryRef.current.scrollIntoView();
             break;
+          case "default":
+            break;
+
         }}
       }, 500)
       

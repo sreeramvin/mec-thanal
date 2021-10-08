@@ -54,10 +54,7 @@ export default function Gallery() {
     fontSize: "2em",
     fontWeight: "bold"
   };
-  const slideNumberStyle = {
-    fontSize: "20px",
-    fontWeight: "bold"
-  };
+ 
   return (
     <div className="App" id = "gallery">
       <div style={{ textAlign: "center" }}>
@@ -75,7 +72,6 @@ export default function Gallery() {
             captionStyle={captionStyle}
             radius="10px"
             slideNumber={false}
-            slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"
             automatic={true}
             dots={true}
