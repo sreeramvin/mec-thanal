@@ -5,9 +5,9 @@ import Gallery from '../../Components/Home/Gallery/Gallery'
 import OneDoneR from '../../Components/Home/ODOR/ODOR'
 import FPC from '../../Components/Home/FPC/FPC'
 import TS from '../../Components/Home/TS/TS'
-// import TopSection from '../../Components/Top-section/Top-section';
+import TopSection from '../../Components/Top-section/Top-section';
 import Header2 from '../../Components/Home/Header2/header2'
-// import {useEffect, useRef, useState} from 'react'
+import {useRef} from 'react'
 
 
 export default function Home(){
@@ -24,17 +24,45 @@ export default function Home(){
     //   else
     //     setHeaderShown(false)
     // }
+    const aboutRef = useRef();
+    const eventRef = useRef();
+    const galleryRef = useRef();
+
+    const scrollToSec = (e) => {
+      setTimeout(() => {
+        if(aboutRef.current && eventRef.current && galleryRef.current)
+        {
+          switch(e){
+          case "about": 
+            aboutRef.current.scrollIntoView();
+            break;
+          case "event":
+            eventRef.current.scrollIntoView();
+            break;
+          case "gallery":
+            galleryRef.current.scrollIntoView();
+            break;
+        }}
+      }, 500)
+      
+    }
     return (
+    
       <div>
-        {/* <TopSection headerShown = {true}/> */}
+        <TopSection scrollToSec = {(e) => scrollToSec(e)}/> 
         <Header2/>
         <Header/>
+        <div  ref = {aboutRef}>
         <About/>
-        
-        <OneDoneR/>
+        </div>
+        <div ref = {eventRef}>
+        <OneDoneR />
+        </div>
         <TS/>
         <FPC/>    
+        <div  ref = {galleryRef}>
         <Gallery/>
+        </div>
        
       </div>
 

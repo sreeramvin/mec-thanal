@@ -15,14 +15,14 @@ export default function header(){
     return(
         <div className = "header">
             <div className = "first">
-                <img src = {g36} alt="description " style = {{width: '6%', maxWidth: '60px'}} />
-                <img src = {care} alt="description " style = {{maxWidth: '580px', width: '70%', height: 'auto', marginBottom: '2%', marginLeft: '2%'}}/>
+                <img src = {g36} style = {{width: '6%', maxWidth: '60px'}} />
+                <img src = {care} style = {{maxWidth: '580px', width: '70%', height: 'auto', marginBottom: '2%', marginLeft: '2%'}}/>
             </div>
             <div style = {{zIndex: 1}}>
-                <img src = {g38} alt="description " style = {{height: 'auto', width: '6%', marginLeft: '-4%', zIndex: 2}} />
-                <img src = {r35} alt="description " style = {{height: 'auto', width: '60%', maxWidth: '700px', marginLeft: '-2%', marginTop: '-2%', zIndex: 1}} />
-                <img src = {g39} alt="description " style = {{height: 'auto', width: '3%',marginTop: '-22%',  zIndex: 2}} />
-                <img src = {ff} alt="description " style = {{height: 'auto', width: '25%',marginTop: '-22%', marginLeft: '2%',  zIndex: 2}} />
+                <img src = {g38} style = {{height: 'auto', width: '6%', marginLeft: '-4%', zIndex: 2}} />
+                <img src = {r35} style = {{height: 'auto', width: '60%', maxWidth: '700px', marginLeft: '-2%', marginTop: '-2%', zIndex: 1}} />
+                <img src = {g39} style = {{height: 'auto', width: '3%',marginTop: '-22%',  zIndex: 2}} />
+                <img src = {ff} style = {{height: 'auto', width: '25%',marginTop: '-22%', marginLeft: '2%',  zIndex: 2}} />
             </div>
             <div style = {{ zIndex: 2}}>
                 <div style = {{float: 'left'}}>
@@ -35,8 +35,8 @@ export default function header(){
                         <FaTelegram style = {{fontSize: '30px', margin: '5px'}}/>
                     </div>
                 </div>
-                <img src = {g40} alt="description " style = {{height: 'auto', width: '20%', marginLeft: '8%',  zIndex: 3, float: 'left'}} />
-                <img src = {g41} alt="description " style = {{height: 'auto', width: '50%', marginLeft: '4%', marginTop: '-18%',  zIndex: 3, float: 'left'}} />
+                <img src = {g40} style = {{height: 'auto', width: '20%', marginLeft: '8%',  zIndex: 3, float: 'left'}} />
+                <img src = {g41} style = {{height: 'auto', width: '50%', marginLeft: '4%', marginTop: '-18%',  zIndex: 3, float: 'left'}} />
 
             </div>
             

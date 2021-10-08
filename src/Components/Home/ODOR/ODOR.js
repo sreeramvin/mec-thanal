@@ -2,9 +2,9 @@ import './ODOR.css'
 import ODORImg from '../../../Assets/ODORImg.png'
 export default function OneDoneR(){
   return(
-      <div className="ODOR" id="odor">
+      <div className="ODOR" id="events">
         <div>
-          <p className="ODOR-heading">ONE DAY ONE RUPEE</p>
+          <p className="ODOR-heading">{`${"ONE DAY ONE RUPEE"}`}</p>
         </div>
         <div className="ODOR-content">
             <div className="ODOR-content-img">
