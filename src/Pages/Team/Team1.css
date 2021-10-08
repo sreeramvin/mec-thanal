@@ -1,0 +1,265 @@
+.team{
+    height: min-content;
+    margin-top: 0px;
+    margin-bottom: -25%;
+}
+
+.team-mobile{
+    display: none;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 20px;
+    color: #24424C;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    letter-spacing: 0.15em;
+}
+
+.staff {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.staff-name{
+    font-size: 35px;
+    margin-bottom: -10px;
+}
+p{
+    font-size: 18px;
+    /* line-height:20px; */
+}
+.photo {
+    width: 180px;
+    height: 155px;
+    border-radius: 50%;
+    padding: 7px;
+    border: 2px solid black;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.core-team{
+    padding-bottom: 180px;
+}
+.core-members{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#designation{
+    padding-top: 0px;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.flex-container-main{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    /* width: 400px; */
+    justify-content: center;
+}
+.member-pair{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: fit-content;
+    min-width: fit-content;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-item{
+    padding: 0px 25px;
+    padding-top: 10px;
+}
+.flex-item2{
+    padding: 0px 0px 0px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.core-img{
+    width: 130px;
+    height: 120px;
+    border-radius:50%;
+    padding: 4px;
+    border: 1.5px solid black;
+    background-color: white;
+    
+}
+.members{
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media only screen and (max-width: 769px) {
+    .team-web{
+        display: none;
+    }
+    .staff-name{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+        /* line-height:20px; */
+    }
+    .photo {
+        width: 140px;
+        height: 130px;
+    }
+    .core-img{
+        width: 92px;
+        height: 82px;
+    }
+    #designation{
+        font-size: 13.5px;
+    }
+    .members{
+        font-size: 14px;
+        
+    }
+    .member-pair{
+       /*max-width: 270px;*/ 
+    }
+    .flex-item{
+        padding: 0px 10px;
+        padding-top: 10px;
+        /*max-width: 160px;*/
+    }
+    .flex-item2{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .team-web{
+        display: none;
+    }
+    .staff-name{
+        font-size: 25px;
+    }
+    p{
+        font-size: 12px;
+        /* line-height:20px; */
+    }
+    .photo {
+        width: 130px;
+        height: 120px;
+    }
+    .core-img{
+        width: 80px;
+        height: 75px;
+    }
+    #designation{
+        font-size: 11px;
+    }
+    .members{
+        font-size: 12px;
+    }
+    
+    .flex-item{
+        padding: 0px 6px;
+        padding-top: 10px;
+    }
+    .flex-item2{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .team-web{
+        display: none;
+    }
+    .staff-name{
+        font-size: 23px;
+    }
+    p{
+        font-size: 11px;
+        /* line-height:20px; */
+    }
+    .photo {
+        width: 120px;
+        height: 110px;
+    }
+    .core-img{
+        width: 70px;
+        height: 65px;
+    }
+    #designation{
+        font-size: 9px;
+    }
+    .members{
+        font-size: 10px;
+       
+    }
+    
+    .flex-item{
+        padding: 0px 7px;
+        padding-top: 10px;
+        max-width: 107px;
+    }
+    .flex-item2{
+        font-size: 10px;
+    }
+    
+}
+@media only screen and (max-width: 321px) {
+    .staff-name{
+        font-size: 22px;
+        margin-bottom: -10px;
+    }
+    p{
+        font-size: 10px;
+        /* line-height:20px; */
+    }
+    .photo {
+        width: 110px;
+        height: 100px;
+        
+    }
+    .flex-item{
+        padding: 20px 10px;
+        
+       
+    }
+    .core-img{
+        width: 60px;
+        height: 55px;
+    
+    }
+    #designation{
+        font-size: 8px;
+    }
+    .members{
+        font-size: 9px;
+               
+    }
+    .flex-item{
+        padding: 0px 6px;
+        padding-top: 10px;
+    }
+    .flex-item2{
+        font-size: 9px;
+    }
+}
