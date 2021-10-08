@@ -1,18 +1,20 @@
 .About{
     width: 100%;
+    color: #fff;
     min-height: 100vh;
     margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-image: url(../../../Assets/bg1.png);
 }
 
 .about-heading{
     text-align: center;
-    font-size: 48px;
+    font-size: 80px;
+    padding-top: 20px;
     padding-bottom: 20px;
-    color: #24424C;
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
 }
@@ -25,14 +27,15 @@
 }
 
 .about-content-text{
-    width: 45%;
+    width:85%;
 }
 .about-content-text p{
     text-align: left;
     font-family: Josefin Sans;
     font-style: normal;
-    font-weight: 300;
-    font-size: 22px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 35px;
 }
 
 .about-content-img{
@@ -45,6 +48,12 @@
 @media screen and (max-width:625px){
     .About{
         margin-top: 120px;
+    }
+    .about-content-img{
+        margin:20px;
+    }
+    .about-content-text p{
+        font-size: 22px;
     }
 }
 @media screen and (max-width:600px){

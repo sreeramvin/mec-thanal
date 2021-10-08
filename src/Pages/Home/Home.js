@@ -32,13 +32,8 @@ export default function Home(){
         <About/>
         
         <OneDoneR/>
-        <FPC/> 
-        
-        
-        
-        
-        
         <TS/>
+        <FPC/>    
         <Gallery/>
        
       </div>

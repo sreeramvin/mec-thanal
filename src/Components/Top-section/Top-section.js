@@ -48,24 +48,25 @@ export default function TopSection({headerShown}) {
             </Link>
           </li>
           <li>
-            <Link to="/About">
+          
               <div
                 className="list-wrapper"
                 style={{
                   backgroundColor: pathname === "/About" ? "#24424C" : "#fff",
                 }}
               >
-                <p
+                <a
                   className="list-item"
                   style={{
                     backgroundColor: pathname === "/About" ? "#24424C" : "#fff",
                     color: !(pathname === "/About") ? "#24424C" : "#fff",
                   }}
+                  href="#about"
                 >
                   About
-                </p>
+                </a>
               </div>
-            </Link>
+          
           </li>
           <li>
             <Link to="/Gallery">
@@ -88,24 +89,25 @@ export default function TopSection({headerShown}) {
             </Link>
           </li>
           <li>
-            <Link to="/Events">
+            {/* <Link to="/Events"> */}
               <div
                 className="list-wrapper"
                 style={{
                   backgroundColor: pathname === "/Events" ? "#24424C" : "#fff",
                 }}
               >
-                <p
+                <a
                   className="list-item"
                   style={{
                     backgroundColor: pathname === "/Events" ? "#24424C" : "#fff",
                     color: !(pathname === "/Events") ? "#24424C" : "#fff",
                   }}
+                  href="#odor"
                 >
                   Events
-                </p>
+                </a>
               </div>
-            </Link>
+            {/* </Link> */}
           </li>
           <li>
             <Link to="/Team">
@@ -157,9 +159,9 @@ export default function TopSection({headerShown}) {
       <div className = {`${expanded ? 'exp-list' : 'exp-list-hidden'}`}>
             <ul className = "exp-ul">
               <li className = "exp-li">Home</li>
-              <li className = "exp-li">About</li>
+              <li className = "exp-li"><a href="#about">About</a></li>
               <li className = "exp-li">Gallery</li>
-              <li className = "exp-li">Events</li>
+              <li className = "exp-li"><a href="#odor">Events</a></li>
               <li className = "exp-li">Team</li>
             </ul>
       </div>
