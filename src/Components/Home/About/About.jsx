@@ -1,5 +1,5 @@
 import './About.css'
-import aboutImg from '../../../Assets/aboutImg.png'
+// import aboutImg from '../../../Assets/aboutImg.png'
 export default function About() {
   return (
     <div className="About" id="about">

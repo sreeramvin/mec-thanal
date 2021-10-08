@@ -1,5 +1,5 @@
 import './TS.css'
-import TSImg from '../../../Assets/TSImg.png'
+// import TSImg from '../../../Assets/TSImg.png'
 export default function TS(){
   return(
       <div className="TS">

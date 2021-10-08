@@ -1,5 +1,5 @@
 import './FPC.css'
-import FPCImg from '../../../Assets/FPCImg.png'
+// import FPCImg from '../../../Assets/FPCImg.png'
 export default function FPC(){
   return(
       <div className="FPC">
