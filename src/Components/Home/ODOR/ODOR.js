@@ -12,7 +12,7 @@ export default function OneDoneR(){
           </div>
           <div className="ODOR-content-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. At iaculis ipsum ut sem. Integer convallis nunc nec diam enim nullam nunc sed egestas. Vel hac et dolor aenean orci mattis. Vestibulum volutpat aenean at lacus tortor posuere. Eu, viverra vulputate ornare eu bibendum iaculis posuere quisque sapien.
+            This is an initiative practised in MEC for long while, through which the students contribute one rupee every day and is collected through students representatives of THANAL from each class at the end of the month. This fund raised through this initiative acts as the major source of financial resource which is further used for the various charitable activities that THANAL organizes. This initiative kindles the spirit to give back to the society in each student and also nurtures the habit to look out for people in need of help. 
             </p>
           </div>
           

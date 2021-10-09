@@ -22,7 +22,7 @@ export default function Footer(){
                     <p>Contact Us</p>
                     <p>abcd@gmail.com</p>
                     <div className="social-links">
-                        <FaInstagram className="social-links-item"/>
+                        <FaInstagram className="social-links-item" />
                         <FaFacebookF className="social-links-item"/>
                         <FaLinkedin className="social-links-item"/>
                     </div>
