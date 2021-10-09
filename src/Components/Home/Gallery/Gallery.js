@@ -1,4 +1,5 @@
 import React from "react";
+import "./Gallery.css"
 import { Carousel } from "react-carousel-minimal";
 
 export default function Gallery() {
@@ -56,7 +57,7 @@ export default function Gallery() {
   };
  
   return (
-    <div className="App" id = "gallery">
+    <div className="App home-gallery">
       <div style={{ textAlign: "center" }}>
           <h1>Gallery</h1> 
         <div

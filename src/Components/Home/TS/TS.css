@@ -1,18 +1,21 @@
 .TS{
     width: 100%;
-    margin-top: 80px;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .TS-heading{
     text-align: center;
-    font-size: 48px;
+    font-size: 50px;
+    font-weight: 600;
     padding-bottom: 40px;
+    padding-top: 50px;
     color: #24424C;
-    font-family: 'Josefin Sans', sans-serif;
     margin: auto;
 }
 
@@ -21,18 +24,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .TS-content-text{
-    width: 85%;
+    width: 50%;
 }
 .TS-content-text p{
     text-align: left;
-    font-family: Josefin Sans;
-    font-style: normal;
     text-align: center;
-    font-weight: 200;
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 25px;
 }
 
 .TS-content-img{
@@ -45,6 +47,7 @@
 @media screen and (max-width:600px){
     .TS-heading{
         font-size: 36px;
+        padding-top: 40px;
     }
     .TS-content-text p{
         font-size: 22px;
@@ -58,13 +61,13 @@
 
 @media screen and (max-width:450px){
     .TS-content{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .TS-content-img{
-        max-width: 60%;
+        max-width: 70%;
     }
     .TS-content-text{
-        width: 70%;
+        width: 80%;
     }
 
     .TS-content-text p{
