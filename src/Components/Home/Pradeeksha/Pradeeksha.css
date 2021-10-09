@@ -1,4 +1,4 @@
-.About{
+.Pradeeksha{
     width: 100%;
     color: #fff;
     min-height: 100vh;
@@ -8,10 +8,13 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-image: url(../../../Assets/aboutbg.svg);
+    background-image: url(../../../Assets/pradeekshabg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-color: #3d0e0e;
 }
 
-.about-heading{
+.Pradeeksha-heading{
     text-align: center;
     font-size: 50px;
     font-weight: 600;
@@ -19,67 +22,64 @@
     margin: auto;
 }
 
-.about-content{
+.Pradeeksha-content{
     display: flex;
     flex-direction: row;
+    padding-bottom: 40px;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px;
 }
 
-.about-content-text{
+.Pradeeksha-content-text{
     width:85%;
 }
-.about-content-text p{
+.Pradeeksha-content-text p{
     text-align: left;
     text-align: center;
     font-weight: 400;
     font-size: 25px;
 }
 
-.about-content-img{
+.Pradeeksha-content-img{
     max-width: 35%;
 }
 
-.about-content-img img{
+.Pradeeksha-content-img img{
     max-width: 80%;
 }
 @media screen and (max-width:625px){
-    .About{
-        background-image: url(../../../Assets/aboutbgMob.svg);
+    .Pradeeksha{
+        background-image: url(../../../Assets/pradeekshabgMob.svg);
     }
-    .about-content-img{
-        margin:20px;
-    }
-    .about-heading{
-        margin-top: 40px;
-    }
-    .about-content-text p{
+    .Pradeeksha-content-text p{
         font-size: 22px;
+    }
+    .Pradeeksha-heading{
+        margin-top: 40px;
     }
 }
 @media screen and (max-width:600px){
-    .about-heading{
-        font-size: 36px;
+    .Pradeeksha-heading{
+        font-size: 40px;
     }
 }
 @media screen and (max-width:400px){
-    .about-heading{
-        font-size: 30px;
+    .Pradeeksha-heading{
+        font-size: 34px;
     }
 }
 @media screen and (max-width:450px){
-    .about-content{
+    .Pradeeksha-content{
         flex-direction: column-reverse;
     }
-    .about-content-img{
+    .Pradeeksha-content-img{
         max-width: 60%;
     }
-    .about-content-text{
+    .Pradeeksha-content-text{
         width: 80%;
     }
 
-    .about-content-text p{
+    .Pradeeksha-content-text p{
         text-align: center;
     }
 }

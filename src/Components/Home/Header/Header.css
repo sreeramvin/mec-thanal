@@ -1,3 +1,6 @@
+.Header{
+    display: none;
+}
 
 .header-container{
     width: 100%;
@@ -10,7 +13,6 @@
     background-color: #24424C;
     background-image: url('../../../Assets/bg_pattern.png');
     background-size: contain;
-    margin-bottom: 50px;
 }
 
 .header-logo{
@@ -52,11 +54,11 @@
     bottom: -40px;
 }
 
-.scroll-down {
+.scroll-down1 {
 	position: center;
 	left: 50%;
 	bottom: 15px;
-    margin-top: 30px;
+    margin-top: 40px;
 	display: block;
 	text-align: center;
 	font-size: 30px;
@@ -107,6 +109,9 @@
     .header-logo-college-p{
         display: none;
     }
+    .Header{
+        display:block;
+    }
 }
 @media screen and (max-width:700px){
     .header-logo-text-p{
@@ -131,7 +136,7 @@
     .header-logo{
         margin: 0;
     }
-    .header-container{
+    /* .header-container{
         margin-bottom: 80px;
-    }
+    } */
 }

@@ -9,7 +9,7 @@ export default function Header(){
                     <img src={LogoLarge} className="header-logo-img" alt="pic"/>
                     <p className="header-logo-text-p">THANAL MEC</p>
                     <p className="header-logo-college-p">Government Model Engineering College, Kochi</p>
-                    <div class="scroll-down "></div>
+                    <div class="scroll-down1"></div>
                 </div>
             </div>
         </div>
