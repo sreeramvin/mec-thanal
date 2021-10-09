@@ -5,6 +5,7 @@ import Gallery from '../../Components/Home/Gallery/Gallery'
 import OneDoneR from '../../Components/Home/ODOR/ODOR'
 import FPC from '../../Components/Home/FPC/FPC'
 import TS from '../../Components/Home/TS/TS'
+import Pradeeksha from '../../Components/Home/Pradeeksha/Pradeeksha';
 import TopSection from '../../Components/Top-section/Top-section';
 import Header2 from '../../Components/Home/Header2/header2'
 import {useRef} from 'react'
@@ -61,6 +62,7 @@ export default function Home(){
         <div ref = {eventRef}>
         <OneDoneR />
         </div>
+        <Pradeeksha/>
         <TS/>
         <FPC/>    
         <div  ref = {galleryRef}>

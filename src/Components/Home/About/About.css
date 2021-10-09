@@ -2,20 +2,20 @@
     width: 100%;
     color: #fff;
     min-height: 100vh;
-    margin-top: 200px;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image: url(../../../Assets/bg1.png);
+    justify-content: center;
+    background-image: url(../../../Assets/aboutbg.svg);
 }
 
 .about-heading{
     text-align: center;
-    font-size: 80px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 40px;
     margin: auto;
 }
 
@@ -24,6 +24,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .about-content-text{
@@ -31,11 +32,9 @@
 }
 .about-content-text p{
     text-align: left;
-    font-family: Josefin Sans;
-    font-style: normal;
     text-align: center;
-    font-weight: 200;
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 25px;
 }
 
 .about-content-img{
@@ -47,10 +46,13 @@
 }
 @media screen and (max-width:625px){
     .About{
-        margin-top: 120px;
+        background-image: url(../../../Assets/aboutbgMob.svg);
     }
     .about-content-img{
         margin:20px;
+    }
+    .about-heading{
+        margin-top: 40px;
     }
     .about-content-text p{
         font-size: 22px;
@@ -63,7 +65,7 @@
 }
 @media screen and (max-width:400px){
     .about-heading{
-        font-size: 28px;
+        font-size: 30px;
     }
 }
 @media screen and (max-width:450px){
@@ -74,7 +76,7 @@
         max-width: 60%;
     }
     .about-content-text{
-        width: 70%;
+        width: 80%;
     }
 
     .about-content-text p{

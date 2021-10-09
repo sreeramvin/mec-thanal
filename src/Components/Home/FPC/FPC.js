@@ -9,7 +9,7 @@ export default function FPC(){
         <div className="FPC-content">
           <div className="FPC-content-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. At iaculis ipsum ut sem. Integer convallis nunc nec diam enim nullam nunc sed egestas. Vel hac et dolor aenean orci mattis. Vestibulum volutpat aenean at lacus tortor posuere. Eu, viverra vulputate ornare eu bibendum iaculis posuere quisque sapien.
+            As part of Thanal, Every Friday we collect food packets from students of MEC and distribute it to the poor, homeless and destitute people on the streets. The distribution is carried by Thanal members in Kakkanad town and nearby areas. With this mission, we aim to save poor people from hunger and malnutrition. Every Friday, approximately 100 food packets are distributed.
             </p>
           </div>
           {/* <div className="FPC-content-img">

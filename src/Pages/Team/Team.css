@@ -1,3 +1,6 @@
+.team-web{
+    width: ;
+}
 .team-mobile{
     display: none;
 }
@@ -88,8 +91,8 @@ p{
     justify-content: center;
 }
 .flex-item{
-    padding: 0px 25px;
-    padding-top: 10px;
+    padding: 0px 45px;
+    padding-top: 15px;
 }
 .flex-item2{
     padding: 0px 0px 0px;
@@ -117,12 +120,15 @@ p{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
     .team-web{
         display: none;
     }
     .team-mobile{
         display: block;
+    }
+    .core-team{
+        margin-bottom: 0px;
     }
     .staff-name{
         font-size: 30px;

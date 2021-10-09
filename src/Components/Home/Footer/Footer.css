@@ -15,6 +15,7 @@
 
 .footer-wave{
     width: 100%;
+    margin-top: 100px;
 }
 .f-contents{
     background-color: #24424C;
@@ -24,7 +25,7 @@
     justify-content: space-around;
     width: 100%;
     height: max-content;
-    padding: 10px;
+    padding: 30px;
     align-items: center;
     margin-top: -1px;
 
@@ -46,9 +47,11 @@
 .flogo-text{
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
+    margin-left: 8px;
+    margin-top: 16px;
+    font-family: 'Montserrat';
     /* margin-top: 20px; */
-    font-size: 23px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 0.14em;
     text-align: left;
@@ -62,13 +65,20 @@
     text-align: center;
     font-weight: 500;
     font-style: normal;
-
+    font-family: 'Montserrat';
 
 }
 
 .footer-links a{
     text-decoration: none;
     color: #fff;
+    font-family: 'Montserrat';
+}
+.other-link{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 20px;
 }
 
 .footer-h{
@@ -83,22 +93,43 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 10px;
 }
-
+.link-heading{
+    margin-bottom: 10px;
+}
+.social-links-1{
+    text-decoration: none;
+}
 .social-links-item{
     font-size: 23px;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 769px){
     
     .footer p{
         font-size: 18px;
         line-height: 20px;
     }
-    
+    .footer-wave{
+        display: none;
+    }
+    .f-contents{
+        margin-top: 180px;
+        padding-top: 20px;
+    }
+    .social-links{
+        margin-bottom: 10px;
+    }
+    .link-heading{
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width:550px){
+    .footer{
+        height: 300px;
+    }
     .footer p{
         font-size: 16px;
         line-height: 15px;

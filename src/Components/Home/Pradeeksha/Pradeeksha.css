@@ -1,0 +1,89 @@
+.Pradeeksha{
+    width: 100%;
+    color: #fff;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../../../Assets/pradeekshabg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-color: #3d0e0e;
+}
+
+.Pradeeksha-heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.Pradeeksha-content{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pradeeksha-content-text{
+    width:85%;
+}
+.Pradeeksha-content-text p{
+    text-align: left;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.Pradeeksha-content-img{
+    max-width: 35%;
+}
+
+.Pradeeksha-content-img img{
+    max-width: 80%;
+}
+@media screen and (max-width:625px){
+    .Pradeeksha{
+        background-image: url(../../../Assets/pradeekshabgMob.svg);
+    }
+    .Pradeeksha-content-text p{
+        font-size: 22px;
+    }
+    .Pradeeksha-heading{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:600px){
+    .Pradeeksha-heading{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:400px){
+    .Pradeeksha-heading{
+        font-size: 34px;
+    }
+}
+@media screen and (max-width:450px){
+    .Pradeeksha-content{
+        flex-direction: column-reverse;
+    }
+    .Pradeeksha-content-img{
+        max-width: 60%;
+    }
+    .Pradeeksha-content-text{
+        width: 80%;
+    }
+
+    .Pradeeksha-content-text p{
+        text-align: center;
+    }
+}
+
+
+
+

@@ -39,7 +39,7 @@ export default function header(){
                 <img src = {g41} alt="pic" style = {{height: 'auto', width: '50%', marginLeft: '4%', marginTop: '-18%',  zIndex: 3, float: 'left'}} />
 
             </div>
-            
+            <div className="scroll-down "></div>
         </div>
     )
 }

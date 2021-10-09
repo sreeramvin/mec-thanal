@@ -1,6 +1,5 @@
 import wave from'../../../Assets/Vectors.png';
 import './Footer.css';
-import togo from "../../../Assets/thanal.png";
 import {FaInstagram, FaFacebookF, FaLinkedin} from 'react-icons/fa';
 
 
@@ -9,31 +8,21 @@ export default function Footer(){
         <div className="footer">
             <img src={wave} alt="random" className="footer-wave"/>
             <div className="f-contents">
-               
-                <div className="flogo">
-                    <img src={togo} className="flogo-img" alt="pic" />
-                    <p className="flogo-text">
-                    <span>THANAL</span>
-                    <span>MEC</span>
-                    </p>
-                </div>
-                <div className="footer-h"/>
+                
                 <div className="footer-links">
-                    <p>Contact Us</p>
-                    <p>abcd@gmail.com</p>
-                    <div className="social-links">
-                        <FaInstagram className="social-links-item" href='www.google.in'/>
-                        <FaFacebookF className="social-links-item"/>
-                        <FaLinkedin className="social-links-item"/>
-                    </div>
+
+                <p className="link-heading">Follow Us</p>
+                <div className="social-links">
+                <a className="social-links-1" href="https://instagram.com/thanalmec?utm_medium=copy_link" target="_blank" rel="noreferrer"><FaInstagram className="social-links-item"/></a>
+                <a className="social-links-1" href="https://www.facebook.com/mecthanal/" target="_blank" rel="noreferrer"><FaFacebookF className="social-links-item"/></a>
+                <a className="social-links-1" href="https://www.linkedin.com/company/thanalmec" target="_blank" rel="noreferrer"><FaLinkedin className="social-links-item"/></a>
+
                 </div>
-                <div className="footer-h"/>
-                <div className="footer-links" >
-                <p><a href="#sss">Other Links</a></p>
-                    <p><a href="#sss">TERMS OF USE</a></p>
-                    <p><a href="#sss">PRIVACY POLICY</a></p>
-                    <p><a href="#sss">FAQ</a></p>
+                    <p className="link-heading">Contact Us</p>
+                    <p>thanalmec.mec@gmail.com</p>
+                    
                 </div>
+                
             </div>
         </div>
     )
