@@ -25,7 +25,7 @@
     justify-content: space-around;
     width: 100%;
     height: max-content;
-    padding: 10px;
+    padding: 30px;
     align-items: center;
     margin-top: -1px;
 
@@ -93,22 +93,43 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 10px;
 }
-
+.link-heading{
+    margin-bottom: 10px;
+}
+.social-links-1{
+    text-decoration: none;
+}
 .social-links-item{
     font-size: 23px;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 769px){
     
     .footer p{
         font-size: 18px;
         line-height: 20px;
     }
-    
+    .footer-wave{
+        display: none;
+    }
+    .f-contents{
+        margin-top: 180px;
+        padding-top: 20px;
+    }
+    .social-links{
+        margin-bottom: 10px;
+    }
+    .link-heading{
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width:550px){
+    .footer{
+        height: 300px;
+    }
     .footer p{
         font-size: 16px;
         line-height: 15px;
