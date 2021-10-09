@@ -57,7 +57,7 @@ export default function Gallery() {
   };
  
   return (
-    <div className="App home-gallery">
+    <div className="home-gallery">
       <div style={{ textAlign: "center" }}>
           <h1>Gallery</h1> 
         <div

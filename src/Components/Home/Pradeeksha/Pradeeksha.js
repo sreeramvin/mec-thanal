@@ -4,7 +4,7 @@ export default function Pradeeksha() {
   return (
     <div className="Pradeeksha">
       <div>
-        <p className="Pradeeksha-heading">Pratheeksha</p>
+        <p className="Pradeeksha-heading">PRATHEEKSHA</p>
       </div>
       <div className="Pradeeksha-content">
         <div className="Pradeeksha-content-text">
