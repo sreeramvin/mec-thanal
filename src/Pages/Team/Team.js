@@ -2,6 +2,7 @@ import './Team.css';
 import staff from '../../Assets/photo.png';
 import core1 from '../../Assets/profile1.png';
 import TopSection from '../../Components/Top-section/Top-section';
+
 export default function Team() {
     
         return ( 
