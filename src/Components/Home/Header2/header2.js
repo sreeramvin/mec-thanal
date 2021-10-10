@@ -13,10 +13,10 @@ import './header2.css'
 
 export default function header(){
 
-    const scrollUp = () => {
-        let pageHeight = window.innerHeight;
-        window.scrollTo( {top:pageHeight,behavior:'smooth'});
-    }
+    // const scrollUp = () => {
+    //     let pageHeight = window.innerHeight;
+    //     window.scrollTo( {top:pageHeight,behavior:'smooth'});
+    // }
 
     return(
         <div className = "header">
