@@ -19,7 +19,7 @@ export default function Team() {
             <div className="staff">
             <img src = { staff } className = "photo" alt="pic" />
             <p className="staff-name">Sreenivas P</p>
-            <p>STAFF IN CHARGE</p>
+            <p className = "designation">STAFF IN CHARGE</p>
             </div>
             <div className="core-team">
             <div className="flex-container-main">

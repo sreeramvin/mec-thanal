@@ -10,23 +10,23 @@ import gg5 from '../../../Assets/gallery/gg5.jpeg'
 export default function Gallery() {
   const data = [{
     image: gg1,
-    caption:"first "
+    // caption:"first "
   },
   {
     image: gg2,
-    caption:"second "
+    // caption:"second "
   },
   {
     image: gg3,
-    caption:"third "
+    // caption:"third "
   },
   {
     image: gg4,
-    caption:"fourth"
+    // caption:"fourth"
   },
   {
     image: gg5,
-    caption:"fifth"
+    // caption:"fifth"
   }
   ];
   

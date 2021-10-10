@@ -4,7 +4,7 @@ import Home from './Pages/Home/Home.js'
 // import Events from './Pages/Events/Events'
 // import Gallery from './Pages/Gallery/Gallery'
 import Team from './Pages/Team/Team'
-// import ContactUs from './Pages/Contact/Contact'
+// import ContactUs from './Pages/Contact/Contact'yes
 // import TopSection from './Components/Top-section/Top-section'
 import Footer from './Components/Home/Footer/Footer'
 import ScrollToTop from './utils/ScrollToTop'
