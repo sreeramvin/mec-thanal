@@ -147,7 +147,7 @@ p{
         display: block;
     }
     .core-team{
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
     .staff-name{
         font-size: 30px;
@@ -192,7 +192,7 @@ p{
     }
     .core-team{
         /* margin-bottom: -50px; */
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
 }
 @media only screen and (max-width: 426px) {

@@ -259,11 +259,11 @@ export default function Team() {
             
        
             <div className="team-web"> 
-            <h1 className="heading"> CORE TEAM 2020 </h1>  
+            <h1 className="heading"> CORE TEAM 2021 </h1>  
             <div className="staff">
             <img src = { staff } className = "photo" alt="pic" />
             <p className="staff-name">Sreenivas P</p>
-            <p>STAFF IN CHARGE</p>
+            <p className = "designation">STAFF IN CHARGE</p>
             </div>
             <div className="core-team">
             <div className="flex-container-main">
@@ -320,7 +320,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">'One Day One Rupee' Head</div>
+                    <div className="flex-item2">'One Day One Rupee' Heads</div>
                 </div>
                 <div className="flex-item">
                     <img src={ core7 } className="core-img" alt="pic"/>
@@ -358,7 +358,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Content Head</div>
+                    <div className="flex-item2">Content Heads</div>
                 </div>
                 <div className="member-pair">
                     <div className="flex-container">
@@ -376,7 +376,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Social Outreach Head</div>
+                    <div className="flex-item2">Social Outreach Heads</div>
                 </div>
             </div>
             <div className="core-members">
@@ -396,7 +396,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Initiatives Head</div>
+                    <div className="flex-item2">Initiatives Heads</div>
                 </div>
                 <div className="member-pair">
                     <div className="flex-container">
@@ -414,7 +414,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Publicity Head</div>
+                    <div className="flex-item2">Publicity Heads</div>
                 </div>
             </div>
             <div className="core-members">
@@ -434,7 +434,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Online Media Head</div>
+                    <div className="flex-item2">Online Media Heads</div>
                 </div>
                 <div className="member-pair">
                     <div className="flex-container">
@@ -490,7 +490,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Documentation Head</div>
+                    <div className="flex-item2">Documentation Heads</div>
                 </div>
             </div>
             
