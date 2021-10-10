@@ -33,7 +33,7 @@ export default function header(){
             <div style = {{ zIndex: 2}}>
                 <div style = {{float: 'left'}} className="header-social">
                     <div>
-                    <a className="social-links-2" href="https://www.facebook.com/mecthanal/" target="_blank" rel="noreferrer"><FaFacebook style = {{fontSize: '30px', margin: '5px'}}/></a>
+                    <a className="social-links-1" href="https://www.facebook.com/mecthanal/" target="_blank" rel="noreferrer"><FaFacebook style = {{fontSize: '30px', margin: '5px'}}/></a>
                     <a className="social-links-1" href="https://www.linkedin.com/company/thanalmec" target="_blank" rel="noreferrer"><FaLinkedin style = {{fontSize: '30px', margin: '5px'}}/></a>
                     </div>
                     <div>

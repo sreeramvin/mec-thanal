@@ -43,6 +43,9 @@
 .about-content-img img{
     max-width: 80%;
 }
+.social-links-1{
+    color: #000;
+}
 @media screen and (max-width:625px){
     .About{
         background-image: url(../../../Assets/aboutbgMob.svg);
