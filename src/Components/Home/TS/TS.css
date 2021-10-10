@@ -1,6 +1,6 @@
 .TS{
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     font-size: 48px;
     font-weight: 600;
     padding-bottom: 40px;
-    padding-top: 20px;
+    padding-top: 60px;
     color: #24424C;
     margin: auto;
 }
@@ -47,7 +47,6 @@
 @media screen and (max-width:600px){
     .TS-heading{
         font-size: 36px;
-        padding-top: 40px;
     }
     .TS-content-text p{
         font-size: 18px;
