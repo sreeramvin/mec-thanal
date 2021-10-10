@@ -1,11 +1,11 @@
 import './Team.css';
-import staff from '../../Assets/Srinivas Sir.jpeg';
-import core1 from '../../Assets/core members/Anjali Suresh.jpeg';import core2 from '../../Assets/core members/Sruthi J.jpg';import core3 from '../../Assets/core members/Abhishek.jpg';import core4 from '../../Assets/core members/Kaveri Menoki.jpg';
-import core5 from '../../Assets/core members/Esther Maria.jpeg';import core6 from '../../Assets/core members/Sachin.jpg';import core7 from '../../Assets/core members/Ashwin Girish.jpg';import core8 from '../../Assets/core members/Aswin Augustine.png';
-import core9 from '../../Assets/core members/Anjali J Parappattu.jpeg';import core10 from '../../Assets/core members/Irene Maria Jijo.jpg';import core11 from '../../Assets/core members/kurian sibi.jpg';import core12 from '../../Assets/core members/Dona Yeldo.jpg';
-import core13 from '../../Assets/core members/Thejus Jawahar.jpg';import core14 from '../../Assets/core members/Sreeram_V.jpg';import core15 from '../../Assets/core members/Varsha MC.jpg';import core16 from '../../Assets/core members/Deepthi Joseph.jpg';
-import core17 from '../../Assets/core members/Navaneeth S Nair.jpg';import core18 from '../../Assets/core members/Gopika G.jpg';import core19 from '../../Assets/core members/Jabira_Farhath.jpg';import core20 from '../../Assets/core members/Jewel AP.jpg';
-import core21 from '../../Assets/core members/Anagha Narayanan.jpg';import core22 from '../../Assets/core members/Jithin Sabu.jpg';import core23 from '../../Assets/core members/Parvathy T J.jpg';import core24 from '../../Assets/core members/Niba Jabeen Akber.jpg';
+import staff from '../../Assets/srinivas sir.jpg';
+import core1 from '../../Assets/core members/Anjali Suresh1.jpeg';import core2 from '../../Assets/core members/Sruthi J1.jpg';import core3 from '../../Assets/core members/Abhishek1.jpg';import core4 from '../../Assets/core members/Kaveri Menoki.jpg';
+import core5 from '../../Assets/core members/Esther Maria1.jpeg';import core6 from '../../Assets/core members/Sachin1.jpg';import core7 from '../../Assets/core members/Ashwin Girish.jpg';import core8 from '../../Assets/core members/Aswin Augustine.png';
+import core9 from '../../Assets/core members/Anjali J Parappattu1.jpeg';import core10 from '../../Assets/core members/Irene Maria Jijo1.jpg';import core11 from '../../Assets/core members/kurian sibi.jpg';import core12 from '../../Assets/core members/Dona Yeldo.jpg';
+import core13 from '../../Assets/core members/Thejus Jawahar.jpg';import core14 from '../../Assets/core members/sreeram.jpg';import core15 from '../../Assets/core members/Varsha MC.jpg';import core16 from '../../Assets/core members/Deepthi Joseph.jpg';
+import core17 from '../../Assets/core members/Navaneeth S Nair1.jpg';import core18 from '../../Assets/core members/Gopika G.jpg';import core19 from '../../Assets/core members/Jabira_Farhath.jpg';import core20 from '../../Assets/core members/Jewel AP.jpg';
+import core21 from '../../Assets/core members/Anagha Narayanan.jpg';import core22 from '../../Assets/core members/Jithin Sabu.jpg';import core23 from '../../Assets/core members/Parvathy T J1.jpg';import core24 from '../../Assets/core members/Niba Jabeen Akber.jpg';
 
 import TopSection from '../../Components/Top-section/Top-section';
 
@@ -97,7 +97,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">'One Day One Rupee' Head</div>
+                    <div className="flex-item2">'One Day One Rupee' Heads</div>
                 </div>
                 <div className="member-pair">
                     <div className="flex-container">
@@ -115,7 +115,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Content Head</div>
+                    <div className="flex-item2">Content Heads</div>
                 </div>
             </div>
             <div className="core-members">
@@ -135,7 +135,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Social Outreach Head</div>
+                    <div className="flex-item2">Social Outreach Heads</div>
                 </div>
                 <div className="member-pair">
                     <div className="flex-container">
@@ -153,7 +153,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Initiatives Head</div>
+                    <div className="flex-item2">Initiative Heads</div>
                 </div>
             </div>
             <div className="core-members">
@@ -173,7 +173,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Publicity Head</div>
+                    <div className="flex-item2">Publicity Heads</div>
                 </div>
                 <div className="member-pair">
                     <div className="flex-container">
@@ -191,7 +191,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Online Media Head</div>
+                    <div className="flex-item2">Online Media Heads</div>
                 </div>
             </div>
             <div className="core-members">
@@ -229,7 +229,7 @@ export default function Team() {
                             </p>
                         </div>        
                     </div>
-                    <div className="flex-item2">Documentation Head</div>
+                    <div className="flex-item2">Documentation Heads </div>
                 </div>
             </div>
             <div className="core-members">
