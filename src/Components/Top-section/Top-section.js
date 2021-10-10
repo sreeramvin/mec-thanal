@@ -63,7 +63,7 @@ export default function TopSection({ scrollToSec }) {
             <li style={{ padding: 0, margin: 0 }}>
               <Link to="/home">
                 <div
-                  className={`${pathname === "home" ? "list-wrapper-selected" : null} list-wrapper`}
+                  className={`${pathname === "Home" || pathname === "home"  ? "list-wrapper-selected" : null} list-wrapper`}
 
                 >
                   <p
@@ -122,7 +122,7 @@ export default function TopSection({ scrollToSec }) {
             <li>
               <Link to="/Team">
                 <div
-                  className={`${pathname === "team" ? "list-wrapper-selected" : null} list-wrapper`}
+                  className={`${pathname === "Team" || pathname === "team" ? "list-wrapper-selected" : null} list-wrapper`}
 
                 >
                   <p

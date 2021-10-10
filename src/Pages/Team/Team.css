@@ -1,5 +1,5 @@
 .team-web{
-    width: ;
+    width: 100%;
 }
 .team-mobile{
     display: none;
@@ -36,7 +36,8 @@ p{
 }
 .photo {
     width: 180px;
-    height: 155px;
+    height: 180px;
+    object-fit: cover;
     border-radius: 50%;
     padding: 7px;
     border: 2px solid black;
@@ -61,7 +62,9 @@ p{
     text-align: center;
     margin-bottom: 0;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
+
 .flex-container-main{
     display: flex;
     flex-grow: 1;
@@ -93,20 +96,24 @@ p{
 .flex-item{
     padding: 0px 45px;
     padding-top: 15px;
+    text-align: center;
 }
 .flex-item2{
     padding: 0px 0px 0px;
     font-size: 16px;
     text-align: center;
     margin-bottom: 0;
+    margin-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
     
 }
 
 .core-img{
     width: 130px;
-    height: 120px;
+    height: 130px;
     border-radius:50%;
+    object-fit: cover;
     padding: 4px;
     border: 1.5px solid black;
     background-color: white;
@@ -115,9 +122,19 @@ p{
 .members{
     padding-top: 10px;
     font-size: 16px;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 0;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.designation{
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
 }
 
 @media screen and (max-width: 769px) {
@@ -181,7 +198,7 @@ p{
     }
     .core-img{
         width: 80px;
-        height: 75px;
+        height: 80px;
     }
     #designation{
         font-size: 11px;
@@ -196,6 +213,12 @@ p{
     }
     .flex-item2{
         font-size: 12px;
+        margin-top: 5px;
+    }
+    .designation{
+        font-size: 13px;
+        font-weight: normal;
+        padding-top: 5px;
     }
 }
 @media only screen and (max-width: 376px) {

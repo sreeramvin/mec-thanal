@@ -26,7 +26,10 @@ export default function Team() {
                 <div className="flex-item">
                     <img src={ core1 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Anjali Suresh <br /> Chaiperson
+                        Anjali Suresh
+                    </p>
+                    <p className="designation">
+                        Chairperson
                     </p>
                 </div>
                 <div className="flex-item">
@@ -34,33 +37,46 @@ export default function Team() {
                     <p className="members">
                         Sruthi J <br />
                     </p>
-                    <div id="designation">Vice Chairperson</div>
+                    <p className="designation">
+                        Vice Chairperson
+                    </p>
                 </div>
                 <div className="flex-item">
                     <img src={ core3 } className="core-img" alt="pic"/>
                     <p className="members">
                         Abhishek Anil <br /> 
                     </p>
-                    <div id="designation">General Secretary</div>
+                    <p className="designation">
+                        General Secretary
+                    </p>
                 </div>
             </div>
             <div className="flex-container-main">
                 <div className="flex-item">
                     <img src={ core4 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Kaveri Menoki <br /> Joint Secretary
+                        Kaveri Menoki
+                    </p>
+                    <p className="designation">
+                        Joint Secretary
                     </p>
                 </div>
                 <div className="flex-item">
                     <img src={ core7 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Ashwin Girish <br /> Design Head 
+                        Ashwin Girish
+                    </p>
+                    <p className="designation">
+                        Design Head
                     </p>
                 </div>
                 <div className="flex-item">
                     <img src={ core8 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Aswin Augustine <br /> Treasurer
+                        Aswin Augustine
+                    </p>
+                    <p className="designation">
+                        Treasurer
                     </p>
                 </div>
             </div>
@@ -73,7 +89,7 @@ export default function Team() {
                                 Esther Maria <br /> 
                             </p>
                         </div>
-                    
+                        
                         <div className="flex-item">
                             <img src={ core6 } className="core-img" alt="pic"/>
                             <p className="members">
@@ -254,25 +270,37 @@ export default function Team() {
                 <div className="flex-item">
                     <img src={ core1 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Anjali Suresh <br /> Chaiperson
+                        Anjali Suresh
+                    </p>
+                    <p className = "designation">
+                        Chairperson
                     </p>
                 </div>
                 <div className="flex-item">
                     <img src={ core2 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Sruthi J <br /> Vice Chairperson
+                        Sruthi J
+                    </p>
+                    <p className = "designation">
+                        Vice Chairperson
                     </p>
                 </div>
                 <div className="flex-item">
                     <img src={ core3 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Abhishek Anil <br /> General Secretary 
+                        Abhishek Anil
+                    </p>
+                    <p className = "designation">
+                        General Secretary 
                     </p>
                 </div>
                 <div className="flex-item">
                     <img src={ core4 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Kaveri Menoki <br /> Joint Secretary
+                        Kaveri Menoki
+                    </p>
+                    <p className = "designation">
+                        Joint Secretary 
                     </p>
                 </div>
             </div>
@@ -285,7 +313,6 @@ export default function Team() {
                                 Esther Maria <br /> 
                             </p>
                         </div>
-                    
                         <div className="flex-item">
                             <img src={ core6 } className="core-img" alt="pic"/>
                             <p className="members">
@@ -298,13 +325,19 @@ export default function Team() {
                 <div className="flex-item">
                     <img src={ core7 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Ashwin Girish <br /> Design Head 
+                        Ashwin Girish
+                    </p>
+                    <p className = "designation">
+                        Design Head
                     </p>
                 </div>
                 <div className="flex-item">
                     <img src={ core8 } className="core-img" alt="pic"/>
                     <p className="members">
-                        Aswin Augustine <br /> Treasurer
+                        Aswin Augustine
+                    </p>
+                    <p className = "designation">
+                        Treasurer
                     </p>
                 </div>
             </div>
