@@ -11,10 +11,10 @@
 
 .TS-heading{
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 600;
     padding-bottom: 40px;
-    padding-top: 50px;
+    padding-top: 20px;
     color: #24424C;
     margin: auto;
 }
@@ -32,13 +32,13 @@
 }
 .TS-content-text p{
     text-align: left;
-    text-align: center;
     font-weight: 400;
     font-size: 25px;
 }
 
 .TS-content-img{
     max-width: 35%;
+    margin-left: 50px;
 }
 
 .TS-content-img img{
@@ -50,7 +50,12 @@
         padding-top: 40px;
     }
     .TS-content-text p{
-        font-size: 22px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .TS-content-img{
+        margin-left: 0px;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width:400px){
@@ -70,9 +75,6 @@
         width: 80%;
     }
 
-    .TS-content-text p{
-        text-align: center;
-    }
 }
 
 

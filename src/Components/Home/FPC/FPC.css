@@ -13,9 +13,10 @@
 
 .FPC-heading{
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 600;
     padding-bottom: 40px;
+    padding-top: 20px;
     margin: auto;
 }
 
@@ -50,7 +51,8 @@
         max-width: 95%;
     }
     .FPC-content-text p{
-        font-size: 22px;
+        font-size: 18px;
+        text-align: left;
     }
     .FPC{
         background-image: url("../../../Assets/fpcBgMob.svg");
@@ -59,7 +61,7 @@
 
 @media screen and (max-width:400px){
     .FPC-heading{
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
@@ -74,9 +76,6 @@
         width: 80%;
     }
 
-    .FPC-content-text p{
-        text-align: center;
-    }
 }
 
 
