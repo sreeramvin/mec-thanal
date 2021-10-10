@@ -12,6 +12,14 @@
     z-index: 100;
 }
 
+.header-social a{
+  text-decoration: none;
+}
+
+.social-links-2{
+  text-decoration: none;
+}
+
 .scroll-down {
 	position: absolute;
 	left: 50%;
