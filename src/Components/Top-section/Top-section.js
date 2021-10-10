@@ -61,9 +61,9 @@ export default function TopSection({ scrollToSec }) {
         <nav className="navBar">
           <ul className="list">
             <li style={{ padding: 0, margin: 0 }}>
-              <Link to="/home">
+              <Link to="/home" style = {{textDecoration: 'none'}}>
                 <div
-                  className={`${pathname === "home" ? "list-wrapper-selected" : null} list-wrapper`}
+                  className={`${pathname === "Home" || pathname === "home"  ? "list-wrapper-selected" : null} list-wrapper`}
 
                 >
                   <p
@@ -120,9 +120,9 @@ export default function TopSection({ scrollToSec }) {
             </li>
 
             <li>
-              <Link to="/Team">
+              <Link to="/Team" style = {{textDecoration: 'none'}}>
                 <div
-                  className={`${pathname === "team" ? "list-wrapper-selected" : null} list-wrapper`}
+                  className={`${pathname === "Team" || pathname === "team" ? "list-wrapper-selected" : null} list-wrapper`}
 
                 >
                   <p
@@ -163,7 +163,7 @@ export default function TopSection({ scrollToSec }) {
       <div className={`${expanded ? 'exp-list' : 'exp-list-hidden'}`}>
         <ul className="exp-ul">
           <li className="exp-li">
-            <Link to="/home">
+            <Link to="/home" style = {{textDecoration: 'none'}}>
               <div
                 className={`${pathname === "home" ? "list-wrapper-selected-mob" : null}`}
                 onClick = {() => setExpanded(false)}
@@ -193,7 +193,7 @@ export default function TopSection({ scrollToSec }) {
           </li>
           
           <li className="exp-li">
-            <Link to="/Team">
+            <Link to="/Team" style = {{textDecoration: 'none'}}>
               <div
                 className={`${pathname === "team" ? "list-wrapper-selected-mob" : null}`}
                 onClick = {() => setExpanded(false)}
