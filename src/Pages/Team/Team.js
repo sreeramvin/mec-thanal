@@ -15,7 +15,7 @@ export default function Team() {
             <div className="team">
             <TopSection />
             <div className="team-mobile">
-            <h1 className="heading"> CORE TEAM 2020 </h1>  
+            <h1 className="heading"> CORE TEAM 2021 </h1>  
             <div className="staff">
             <img src = { staff } className = "photo" alt="pic" />
             <p className="staff-name">Sreenivas P</p>

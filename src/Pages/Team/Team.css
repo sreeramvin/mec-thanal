@@ -8,7 +8,7 @@
 .team{
     height: min-content;
     margin-top: 0px;
-    margin-bottom: -25%;
+    /* margin-bottom: -25%; */
 }
 
 .heading {
@@ -46,7 +46,7 @@ p{
     
 }
 .core-team{
-    padding-bottom: 180px;
+    padding-bottom: 10px;
 }
 .core-members{
     display: flex;
