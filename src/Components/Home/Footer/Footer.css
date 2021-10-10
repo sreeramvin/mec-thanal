@@ -94,6 +94,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 10px;
+    
 }
 .heart{
     margin-bottom: 5px;
@@ -106,7 +107,7 @@
     text-decoration: none;
 }
 .social-links-item{
-    font-size: 23px;
+    font-size: 40px;
 }
 
 @media screen and (max-width: 769px){

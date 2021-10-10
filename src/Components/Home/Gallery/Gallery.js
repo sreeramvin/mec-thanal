@@ -79,15 +79,15 @@ export default function Gallery() {
   //   }
   // ];
 
-  const captionStyle = {
-    fontSize: "2em",
-    fontWeight: "bold"
-  };
+  // const captionStyle = {
+  //   fontSize: "2em",
+  //   fontWeight: "bold"
+  // };
  
   return (
     <div className="home-gallery">
       <div style={{ textAlign: "center" }}>
-          <h1>Gallery</h1> 
+          <h1>GALLERY</h1> 
         <div
           style={{
             padding: "0 20px"
@@ -98,10 +98,10 @@ export default function Gallery() {
             time={1500}
             width="100%"
             height="500px"
-            captionStyle={captionStyle}
+            // captionStyle={captionStyle}
             radius="10px"
             slideNumber={false}
-            captionPosition="bottom"
+            // captionPosition="bottom"
             automatic={true}
             dots={false}
             pauseIconColor="white"

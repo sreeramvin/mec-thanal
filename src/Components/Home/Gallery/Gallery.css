@@ -1,3 +1,15 @@
-.home-gallery{
+.home-gallery h1{
     margin-top: 40px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:625px){
+    .home-gallery{
+        margin-top: 100px;
+    }
+    .home-gallery h1{
+        font-size: 30px;
+    }
 }
