@@ -157,6 +157,7 @@
     }
     .link-heading{
         margin-bottom: 10px;
+        font-size: 10px;
     }
     .social-links-item{
         font-size: 30px;
@@ -175,6 +176,9 @@
         height: 80px;
     
     }
+    .link-heading{
+        font-size: 11px;
+    }
     .social-links-item{
         font-size: 25px;
     }
@@ -182,7 +186,7 @@
 
 @media screen and (max-width:440px){
     .footer p{
-        font-size: 12px;
+        font-size: 10px;
         line-height: 15px;
         font-weight: bold;
     }
