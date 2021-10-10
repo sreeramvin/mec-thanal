@@ -152,6 +152,9 @@ p{
     .staff-name{
         font-size: 30px;
     }
+    .flex-container-main{
+        flex-grow: 3;
+    }
     p{
         font-size: 15px;
         /* line-height:20px; */
@@ -211,9 +214,7 @@ p{
         width: 80px;
         height: 80px;
     }
-    #designation{
-        font-size: 11px;
-    }
+    
     .members{
         font-size: 12px;
     }
@@ -223,11 +224,11 @@ p{
         padding-top: 10px;
     }
     .flex-item2{
-        font-size: 12px;
+        font-size: 11px;
         margin-top: 5px;
     }
     .designation{
-        font-size: 13px;
+        font-size: 11px;
         font-weight: normal;
         padding-top: 5px;
     }
@@ -251,8 +252,8 @@ p{
         width: 70px;
         height: 65px;
     }
-    #designation{
-        font-size: 9px;
+    .designation{
+        font-size: 10px;
     }
     .members{
         font-size: 10px;
@@ -296,7 +297,7 @@ p{
         height: 55px;
     
     }
-    #designation{
+    .designation{
         font-size: 8px;
     }
     .members{
