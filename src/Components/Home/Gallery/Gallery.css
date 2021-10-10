@@ -7,3 +7,29 @@
     font-weight: 600;
     font-size: 48px;
 }
+
+@media screen and (max-width: 769px) {
+    .home-gallery-heading h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .home-gallery-heading h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .home-gallery-heading h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+}
