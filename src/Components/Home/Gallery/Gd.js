@@ -1,15 +1,11 @@
-import React from "react";
-import "./Gallery.css"
-import { Carousel } from "react-carousel-minimal";
 import gg1 from '../../../Assets/gallery/gg1.jpeg'
 
 
-export default function Gallery() {
-  const data = [
+
+const data = [
     {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg",
-        
+        {gg1},
       caption: "San Francisco"
     },
     {
@@ -53,49 +49,3 @@ export default function Gallery() {
       caption: "Darjeeling"
     }
   ];
-
-  const captionStyle = {
-    fontSize: "2em",
-    fontWeight: "bold"
-  };
- 
-  return (
-    <div className="home-gallery">
-      <div style={{ textAlign: "center" }}>
-          <h1>Gallery</h1> 
-        <div
-          style={{
-            padding: "0 20px"
-          }}
-        >
-          <Carousel
-            data={data}
-            time={1000}
-            width="100%"
-            height="500px"
-            captionStyle={captionStyle}
-            radius="10px"
-            slideNumber={false}
-            captionPosition="bottom"
-            automatic={true}
-            dots={false}
-            pauseIconColor="white"
-            pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
-            slideImageFit="cover"
-            style={{
-              
-              textAlign: "center",
-              maxWidth: "1000px",
-              maxHeight: "500px",
-              margin: "20px auto"
-            }}
-          />
-        </div>
-        
-      </div>
-    </div>
-  );
-}
-
-
