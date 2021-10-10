@@ -1,6 +1,18 @@
 import gg1 from '../../../Assets/gallery/gg1.jpeg'
 
-
+const projects = [{
+  image: {firstProjectimage},
+  caption:"first project"
+},
+{
+  image: {secondProjectimage},
+  caption:"second project"
+},
+{
+  image: {thirdProjectimage},
+  caption:"third project"
+}
+]
 
 const data = [
     {
