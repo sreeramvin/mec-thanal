@@ -86,7 +86,7 @@ export default function Gallery() {
  
   return (
     <div className="home-gallery">
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center" }} className="home-gallery-heading">
           <h1>Gallery</h1> 
         <div
           style={{
