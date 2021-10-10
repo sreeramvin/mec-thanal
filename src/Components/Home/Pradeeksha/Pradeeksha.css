@@ -52,6 +52,7 @@
 @media screen and (max-width:625px){
     .Pradeeksha{
         background-image: url(../../../Assets/pradeekshabgMob.svg);
+        height: auto;
     }
     .Pradeeksha-content-text p{
         font-size: 18px;
@@ -62,6 +63,7 @@
 @media screen and (max-width:600px){
     .Pradeeksha-heading{
         font-size: 36px;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width:400px){

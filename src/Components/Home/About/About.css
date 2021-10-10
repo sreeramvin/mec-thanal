@@ -62,9 +62,12 @@
     }
 }
 @media screen and (max-width:600px){
+    .About{
+        height: auto;
+    }
     .about-heading{
         font-size: 36px;
-        margin-top: 220px;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width:400px){
