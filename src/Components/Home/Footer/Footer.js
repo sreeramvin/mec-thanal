@@ -12,7 +12,7 @@ export default function Footer(){
                 <div className="flogo">
                     <img src={togo} className="flogo-img" alt="pic" />
                     <p className="flogo-text">
-                    <span>THANAL</span>
+                    <span className="flogo-text-space"> THANAL</span>
                     <span>MEC</span>
                     </p>
                 </div>
@@ -28,8 +28,9 @@ export default function Footer(){
                     <p>thanalmec.mec@gmail.com</p> 
                 </div>
             <div className="footer-h"/>
-                <div className="footer-link" >
-                    <p>MADE WITH <FaHeart className="heart"/></p>
+                <div className="footer-credit" >
+                    <h3>MADE WITH <FaHeart className="heart"/></h3>
+                    <p>BY THANAL MEC</p>
                     
                 </div>
             </div>  

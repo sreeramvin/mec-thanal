@@ -101,7 +101,7 @@
 }
 
 .list-wrapper-selected{
-    border: 3px solid #143941;
+    border-bottom: 3px solid #143941;
     box-sizing: border-box;
 }
 
