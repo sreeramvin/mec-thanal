@@ -16,9 +16,10 @@
 
 .Pradeeksha-heading{
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 600;
     padding-bottom: 40px;
+    padding-top: 20px;
     margin: auto;
 }
 
@@ -52,7 +53,8 @@
         background-image: url(../../../Assets/pradeekshabgMob.svg);
     }
     .Pradeeksha-content-text p{
-        font-size: 22px;
+        font-size: 18px;
+        text-align: left;
     }
     .Pradeeksha-heading{
         margin-top: 40px;
@@ -60,12 +62,12 @@
 }
 @media screen and (max-width:600px){
     .Pradeeksha-heading{
-        font-size: 40px;
+        font-size: 36px;
     }
 }
 @media screen and (max-width:400px){
     .Pradeeksha-heading{
-        font-size: 34px;
+        font-size: 28px;
     }
 }
 @media screen and (max-width:450px){
@@ -79,9 +81,6 @@
         width: 80%;
     }
 
-    .Pradeeksha-content-text p{
-        text-align: center;
-    }
 }
 
 
