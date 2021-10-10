@@ -1,14 +1,23 @@
 import './About.css'
+import AOS from 'aos';
+import { useEffect } from 'react';
+import "aos/dist/aos.css";
 // import aboutImg from '../../../Assets/aboutImg.png'
 export default function About() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800
+    })
+  },[])
   return (
     <div className="About" id="about">
       <div>
-        <p className="about-heading">ABOUT US</p>
+        <p className="about-heading" data-aos={"fade-down"}>ABOUT US</p>
       </div>
       <div className="about-content">
         <div className="about-content-text">
-          <p className="about-text">
+          <p className="about-text" data-aos={"fade-down"}>
             THANAL (To Humans A Noble Acme Life) is a non-profit
             organisation of  Govt. Model Engineering College, Cochin.
             THANAL was established as a students' initiative aiming to make a

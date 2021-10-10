@@ -24,24 +24,12 @@ function App() {
       
         <Switch>
           <Redirect exact from="/" to="/Home" />
-          <Route path="/Home">
+          <Route path="/home">
             <Home />
           </Route>
-          <Route path="/About">
-            <About />
-          </Route>
-          <Route path="/Gallery">
-            <Gallery />
-          </Route>
-          <Route path="/Events">
-            <Events />
-          </Route>
           
-          <Route path="/Team">
+          <Route path="/team">
             <Team />
-          </Route>
-          <Route path="/Contact">
-            <ContactUs />
           </Route>
 
         </Switch>

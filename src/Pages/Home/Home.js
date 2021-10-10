@@ -52,7 +52,7 @@ export default function Home(){
     }
     return (
     
-      <div>
+      <div style = {{overflowX: 'hidden'}}>
         <TopSection scrollToSec = {(e) => scrollToSec(e)}/> 
         <Header2/>
         <Header/>
