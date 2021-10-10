@@ -1,6 +1,6 @@
 .ODOR{
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     font-size: 48px;
     font-weight: 600;
     padding-bottom: 40px;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-left: 80px;
     padding-right: 80px;
     color: #24424C;
