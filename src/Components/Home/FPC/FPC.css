@@ -1,6 +1,6 @@
 .FPC{
     width: 100%;
-    height: auto;
+    height: 90vh;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
     font-size: 48px;
     font-weight: 600;
     padding-bottom: 40px;
-    padding-top: 60px;
+    /* padding-top: 60px; */
     margin: auto;
 }
 
@@ -35,7 +35,7 @@
     text-align: left;
     text-align: center;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .FPC-content-img{
