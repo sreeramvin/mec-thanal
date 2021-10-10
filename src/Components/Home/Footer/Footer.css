@@ -149,7 +149,7 @@
         display: none;
     }
     .f-contents{
-        margin-top: 180px;
+        margin-top: 100px;
         padding-top: 20px;
     }
     .social-links{
@@ -158,11 +158,14 @@
     .link-heading{
         margin-bottom: 10px;
     }
+    .social-links-item{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:550px){
     .footer{
-        height: 300px;
+        height: 100px;
     }
     .footer p{
         font-size: 16px;
@@ -172,6 +175,9 @@
         height: 80px;
     
     }
+    .social-links-item{
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width:440px){
@@ -179,5 +185,8 @@
         font-size: 12px;
         line-height: 15px;
         font-weight: bold;
+    }
+    .social-links-item{
+        font-size: 25px;
     }
 }
