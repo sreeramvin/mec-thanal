@@ -5,7 +5,7 @@ import r35 from './../../../Assets/r35.png'
 import g39 from './../../../Assets/g39.png'
 import ff from './../../../Assets/fullform.png'
 import g40 from './../../../Assets/g40.png'
-import g41 from './../../../Assets/g41.png'
+import g41 from './../../../Assets/g41.svg'
 
 
 import {FaFacebook, FaLinkedin, FaInstagramSquare, FaTelegram} from 'react-icons/fa'
@@ -31,14 +31,14 @@ export default function header(){
                 <img src = {ff} alt="pic" style = {{height: 'auto', width: '25%',marginTop: '-22%', marginLeft: '2%',  zIndex: 2}} />
             </div>
             <div style = {{ zIndex: 2}}>
-                <div style = {{float: 'left'}}>
+                <div style = {{float: 'left'}} className="header-social">
                     <div>
-                        <FaFacebook style = {{fontSize: '30px', margin: '5px'}}/>
-                        <FaLinkedin style = {{fontSize: '30px', margin: '5px'}}/>
+                    <a className="social-links-2" href="https://www.facebook.com/mecthanal/" target="_blank" rel="noreferrer"><FaFacebook style = {{fontSize: '30px', margin: '5px'}}/></a>
+                    <a className="social-links-1" href="https://www.linkedin.com/company/thanalmec" target="_blank" rel="noreferrer"><FaLinkedin style = {{fontSize: '30px', margin: '5px'}}/></a>
                     </div>
                     <div>
-                        <FaInstagramSquare style = {{fontSize: '30px', margin: '5px'}}/>
-                        <FaTelegram style = {{fontSize: '30px', margin: '5px'}}/>
+                    <a className="social-links-1" href="https://instagram.com/thanalmec?utm_medium=copy_link" target="_blank" rel="noreferrer"><FaInstagramSquare style = {{fontSize: '30px', margin: '5px'}}/></a>
+                    <a className="social-links-1" href="https://t.me/joinchat/75Y5RG0EGvs0MTg1" target="_blank" rel="noreferrer"><FaTelegram style = {{fontSize: '30px', margin: '5px'}}/></a>
                     </div>
                 </div>
                 <img src = {g40} alt="pic" style = {{height: 'auto', width: '20%', marginLeft: '8%',  zIndex: 3, float: 'left'}} />
