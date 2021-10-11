@@ -6,6 +6,9 @@ import gg2 from '../../../Assets/gallery/gg2.jpeg'
 import gg3 from '../../../Assets/gallery/gg3.jpeg'
 import gg4 from '../../../Assets/gallery/gg4.jpeg'
 import gg5 from '../../../Assets/gallery/gg5.jpeg'
+import gg6 from '../../../Assets/gallery/gg6.jpeg'
+import gg7 from '../../../Assets/gallery/gg7.jpeg'
+import gg8 from '../../../Assets/gallery/gg8.jpeg'
 
 export default function Gallery() {
   const data = [{
@@ -27,6 +30,18 @@ export default function Gallery() {
   {
     image: gg5,
     // caption:"fifth"
+  },
+  {
+    image: gg6,
+    // caption:"fifth"
+  },
+  {
+    image: gg7,
+    // caption:"second "
+  },
+  {
+    image: gg8,
+    // caption:"second "
   }
   ];
 
