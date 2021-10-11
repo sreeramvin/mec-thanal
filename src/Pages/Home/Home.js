@@ -36,18 +36,18 @@ export default function Home(){
           // eslint-disable-next-line
           switch(e){
           case "about": 
-            aboutRef.current.scrollIntoView();
+            aboutRef.current.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
             break;
-          case "event":
-            eventRef.current.scrollIntoView();
+          case "events":
+            eventRef.current.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
             break;
           case "gallery":
-            galleryRef.current.scrollIntoView();
+            galleryRef.current.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
             break;
          
 
         }}
-      }, 500)
+      }, 100)
       
     }
     return (
