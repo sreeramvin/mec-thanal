@@ -11,7 +11,7 @@ export default function About() {
     })
   },[])
   return (
-    <div className="About" id="about">
+    <div className="About">
       <div>
         <p className="about-heading" data-aos={"fade-down"}>ABOUT US</p>
       </div>

@@ -10,7 +10,7 @@ export default function OneDoneR(){
     })
   },[])
   return(
-      <div className="ODOR" id="events">
+      <div className="ODOR">
         <div>
           <p className="ODOR-heading" data-aos={"fade-down"}>{`${"ONE DAY ONE RUPEE"}`}</p>
         </div>
