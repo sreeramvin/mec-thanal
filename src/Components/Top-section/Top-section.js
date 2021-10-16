@@ -4,14 +4,14 @@ import { useEffect, useState } from "react";
 import Logo from "../../Assets/thanal_logo.png";
 import { IoClose, IoMenu } from 'react-icons/io5'
 
-export default function TopSection({ scrollToSec }) {
+export default function TopSection({ setPageName }) {
   // eslint-disable-next-line
   const location = useLocation();
   // eslint-disable-next-line
   const history = useHistory();
   const [pathname, setPathname] = useState('');
   const [expanded, setExpanded] = useState(false)
-  useEffect(() => {
+  /*useEffect(() => {
     const scrollSec = window.location.href.split('#')[1];
     const byslash = window.location.href.split('/')
     if (scrollSec !== undefined) {
@@ -23,7 +23,12 @@ export default function TopSection({ scrollToSec }) {
     }
     console.log(pathname)
     // eslint-disable-next-line
-  }, [window.location.href]);
+  }, [window.location.href]);*/
+
+  useEffect(() => {
+    if (typeof setPageName === 'function')
+      setPageName(pathname)
+  },[pathname])
 
   useEffect(() => {
     var prevScrollpos = window.pageYOffset;
@@ -42,7 +47,7 @@ export default function TopSection({ scrollToSec }) {
   const navClick = (e, t) => {
     if (t === "mob")
       setExpanded(false)
-    window.location.href = "/home#" + e
+    setPathname(e)
   }
   return (
     <div id="navbar" className={`${true ? "TopSection" : null} ${expanded ? "TopSectionExpanded" : null}`}>
@@ -68,6 +73,7 @@ export default function TopSection({ scrollToSec }) {
                 >
                   <p
                     className="list-item"
+                    onClick={() => navClick("home", "desk")}
                   >
                     Home
                   </p>
@@ -75,22 +81,22 @@ export default function TopSection({ scrollToSec }) {
               </Link>
             </li>
             <li>
-
+              <Link to="/home" style = {{textDecoration: 'none'}}>
               <div
                 className={`${pathname === "about" ? "list-wrapper-selected" : null} list-wrapper`}
 
               >
                 <p
                   className="list-item"
-                  onClick={() => navClick("about", "desk")}
+                    onClick={() => navClick("about", "desk")}
                 >
                   About
                 </p>
               </div>
-
+              </Link>
             </li>
             <li>
-              {/* <Link to="/Events"> */}
+              <Link to="/home" style = {{textDecoration: 'none'}}>
               <div
                 className={`${pathname === "events" ? "list-wrapper-selected" : null} list-wrapper`}
 
@@ -103,9 +109,10 @@ export default function TopSection({ scrollToSec }) {
                   Events
                 </p>
               </div>
-              {/* </Link> */}
+              </Link>
             </li>
             <li>
+            <Link to="/home" style = {{textDecoration: 'none'}}>
               <div
                 className={`${pathname === "gallery" ? "list-wrapper-selected" : null} list-wrapper`}
 
@@ -117,6 +124,7 @@ export default function TopSection({ scrollToSec }) {
                   Gallery
                 </p>
               </div>
+              </Link>
             </li>
 
             <li>
@@ -127,6 +135,7 @@ export default function TopSection({ scrollToSec }) {
                 >
                   <p
                     className="list-item"
+                    onClick={() => navClick("team", "desk")}
                   >
                     Team
                   </p>
@@ -166,7 +175,7 @@ export default function TopSection({ scrollToSec }) {
             <Link to="/home" style = {{textDecoration: 'none'}}>
               <div
                 className={`${pathname === "home" ? "list-wrapper-selected-mob" : null}`}
-                onClick = {() => setExpanded(false)}
+                onClick={() => navClick("home", "mob")}
               >
                 <p
                   className="list-item-mob"
@@ -177,26 +186,32 @@ export default function TopSection({ scrollToSec }) {
             </Link>
           </li>
           <li className="exp-li">
+          <Link to="/home" style = {{textDecoration: 'none'}}>
             <div className={`${pathname === "about" ? "list-wrapper-selected-mob" : null}`}>
               <p className="list-item-mob" onClick={() => navClick("about", "mob")}>About</p>
             </div>
+            </Link>
           </li>
           <li className="exp-li">
+          <Link to="/home" style = {{textDecoration: 'none'}}>
             <div className={`${pathname === "events" ? "list-wrapper-selected-mob" : null}`}>
               <p className="list-item-mob" onClick={() => navClick("events", "mob")}>Events</p>
             </div>
+            </Link>
           </li>
           <li className="exp-li">
+          <Link to="/home" style = {{textDecoration: 'none'}}>
             <div className={`${pathname === "gallery" ? "list-wrapper-selected-mob" : null}`}>
               <p className="list-item-mob" onClick={() => navClick("gallery", "mob")}>Gallery</p>
             </div>
+            </Link>
           </li>
           
           <li className="exp-li">
             <Link to="/Team" style = {{textDecoration: 'none'}}>
               <div
                 className={`${pathname === "team" ? "list-wrapper-selected-mob" : null}`}
-                onClick = {() => setExpanded(false)}
+                onClick={() => navClick("team", "mob")}
 
               >
                 <p

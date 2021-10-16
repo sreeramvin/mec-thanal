@@ -8,10 +8,10 @@ import TS from '../../Components/Home/TS/TS'
 import Pradeeksha from '../../Components/Home/Pradeeksha/Pradeeksha';
 import TopSection from '../../Components/Top-section/Top-section';
 import Header2 from '../../Components/Home/Header2/header2'
-import {useRef} from 'react'
+import {useEffect, useRef} from 'react'
 
 
-export default function Home(){
+export default function Home({pageName}){
     // const aboutRef = useRef(null);
     // const [headerShown, setHeaderShown] = useState(false)
     // useEffect(() => {
@@ -28,6 +28,11 @@ export default function Home(){
     const aboutRef = useRef();
     const eventRef = useRef();
     const galleryRef = useRef();
+
+    useEffect(() => {
+      console.log(pageName)
+      scrollToSec(pageName)
+    },[pageName])
 
     const scrollToSec = (e) => {
       setTimeout(() => {
@@ -53,7 +58,7 @@ export default function Home(){
     return (
     
       <div style = {{overflowX: 'hidden'}}>
-        <TopSection scrollToSec = {(e) => scrollToSec(e)}/> 
+        
         <Header2/>
         <Header/>
         <div  ref = {aboutRef}>

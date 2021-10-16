@@ -13,7 +13,6 @@ export default function Team() {
     
         return ( 
             <div className="team">
-            <TopSection />
             <div className="team-mobile">
             <h1 className="heading"> CORE TEAM 2021 </h1>  
             <div className="staff">

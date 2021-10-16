@@ -5,7 +5,7 @@ import Home from './Pages/Home/Home.js'
 // import Gallery from './Pages/Gallery/Gallery'
 import Team from './Pages/Team/Team'
 // import ContactUs from './Pages/Contact/Contact'yes
-// import TopSection from './Components/Top-section/Top-section'
+import TopSection from './Components/Top-section/Top-section'
 import Footer from './Components/Home/Footer/Footer'
 import ScrollToTop from './utils/ScrollToTop'
 import {
@@ -14,18 +14,21 @@ import {
   Route,
   Redirect
 } from "react-router-dom";
+import {useState} from 'react'
 
 function App() {
+  const [pageName, setPageName] = useState()
   return (
     
     <Router>
        <ScrollToTop/>
+      <TopSection setPageName = {(e) => setPageName(e)}/>
       <div>
       
         <Switch>
-          <Redirect exact from="/" to="/Home" />
+          <Redirect exact from="/" to="/home" />
           <Route path="/home">
-            <Home />
+            <Home pageName = {pageName}/>
           </Route>
           
           <Route path="/team">
