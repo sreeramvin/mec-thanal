@@ -6,7 +6,7 @@ import OneDoneR from '../../Components/Home/ODOR/ODOR'
 import FPC from '../../Components/Home/FPC/FPC'
 import TS from '../../Components/Home/TS/TS'
 import Pradeeksha from '../../Components/Home/Pradeeksha/Pradeeksha';
-import TopSection from '../../Components/Top-section/Top-section';
+
 import Header2 from '../../Components/Home/Header2/header2'
 import {useEffect, useRef} from 'react'
 

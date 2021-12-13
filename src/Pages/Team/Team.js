@@ -7,7 +7,6 @@ import core13 from '../../Assets/core members/Thejus Jawahar.jpg';import core14 
 import core17 from '../../Assets/core members/Navaneeth S Nair1.jpg';import core18 from '../../Assets/core members/Gopika G.jpg';import core19 from '../../Assets/core members/Jabira_Farhath.jpg';import core20 from '../../Assets/core members/Jewel AP.jpg';
 import core21 from '../../Assets/core members/Anagha Narayanan.jpg';import core22 from '../../Assets/core members/Jithin Sabu.jpg';import core23 from '../../Assets/core members/Parvathy T J1.jpg';import core24 from '../../Assets/core members/Niba Jabeen Akber.jpg';
 
-import TopSection from '../../Components/Top-section/Top-section';
 
 export default function Team() {
     

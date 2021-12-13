@@ -28,7 +28,7 @@ export default function TopSection({ setPageName }) {
   useEffect(() => {
     if (typeof setPageName === 'function')
       setPageName(pathname)
-  },[pathname])
+  },[pathname,setPageName])
 
   useEffect(() => {
     var prevScrollpos = window.pageYOffset;
