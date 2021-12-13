@@ -28,6 +28,39 @@
     justify-content: center;
     margin-bottom: 40px;
 }
+.about__head2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+    
+   
+    
+    margin: auto;
+}
+
+
+.bank__details{
+    padding-top: 20px;
+display: flex;
+justify-content: space-evenly;
+
+/* margin-right: 10rem;
+margin-left: 15rem; */
+    font-weight:bold;
+}
+.bank_details_rignt{
+    /* border-left: 3px solid #fff;
+    margin-right: 7rem;
+    padding-left: 6rem; */
+}
+.bank__details__middle{
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: lighter;
+    align-self: center;
+}
 
 .about-content-text{
     width:85%;
@@ -55,10 +88,28 @@
     .about-content-img{
         margin:20px;
     }
+    .bank_details_rignt{
+        margin-top: 2rem;
+    }
 
     .about-content-text p{
         font-size: 18px;
         text-align: left;
+    }
+    .bank__details__middle{
+        display: none;
+    }
+    .bank__details{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .bank__details{
+        text-align: center;
+    }
+    .abt-cont{
+        text-align: center;
     }
 }
 @media screen and (max-width:600px){
@@ -69,10 +120,17 @@
         font-size: 36px;
         margin-top: 20px;
     }
+    .about__head2{
+        font-size: 22px;
+        margin-top: 20px;
+    }
 }
 @media screen and (max-width:400px){
     .about-heading{
         font-size: 28px;
+    }
+    .about__head2{
+        font-size: 20px;
     }
 }
 @media screen and (max-width:450px){
